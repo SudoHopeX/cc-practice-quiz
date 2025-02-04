@@ -166,7 +166,7 @@ function showSummary() {
         <p>Score: ${score}%</p>
         <div class="button-group">
             <button onclick="window.location.reload()">Start Quiz Again</button>
-            <a href="https://github.com/sudo-hope0529/CC_practice_quiz/issues/new?title=Feedback+@cc_practice_quiz&body=@sudo-hope0529[Krishna Dwivedi]%0A " target="_blank">
+            <a href="https://github.com/sudo-hope0529/cc-practice-quiz/issues/new?title=Feedback+@cc_practice_quiz&body=@sudo-hope0529[Krishna Dwivedi]%0A " target="_blank">
                 <button class="feedback-btn">Give Feedback on GitHub</button>
             </a>
         </div>
