@@ -28,7 +28,7 @@ A comprehensive practice platform for the ISC2 CC certification exam, designed t
 Share your experience or report issues:
 1. Click the "Share Feedback" button on the quiz page
 2. Submit via GitHub Issues: [Give-Feedback](https://github.com/sudo-hope0529/cc-practice-quiz/issues/new?title=Feedback+@cc_practice_quiz&body=@sudo-hope0529[Krishna+Dwivedi]%0A)
-3. Email: [sud0hope.techie@gmail.com]
+3. Email: [sud0hope.techie+ccfeedback@gmail.com]
 
 ## 📖 Sources
 Questions are curated from:
