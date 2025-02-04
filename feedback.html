@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Feedback - CC Practice Quiz</title>
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .feedback-section {
+            padding: 30px;
+            border-radius: 10px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .feedback-card {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #4CAF50;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .feedback-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background-color: #ffffff;
+            border-left: 6px solid #45a049;
+        }
+        .user-info {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .feedback-text {
+            line-height: 1.6;
+            font-family: 'Segoe UI', 'Roboto', 'Open Sans', sans-serif;
+            font-size: 1.1em;
+            color: #2c3e50;
+            letter-spacing: 0.2px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+   <h1>What Users Say About CC Practice Quiz</h1>
+    <div class="feedback-section">
+        <div id="feedbackContainer">
+            <div class="feedback-card">
+                <div class="user-info">Posted by: John Doe</div>
+                <div class="feedback-text">
+                    "The CC Practice Quiz helped me a lot in preparing for my exam. The questions were relevant and well-structured!"
+                </div>
+            </div>
+            <div class="feedback-card">
+                <div class="user-info">Posted by: Jane Smith</div>
+                <div class="feedback-text">
+                    "Great resource for understanding core concepts. Would definitely recommend to other students."
+                </div>
+            </div>
+            <!-- More feedback cards can be added dynamically -->
+        </div>
+    </div>
+   <footer>
+      <p style="font-family: 'Segoe UI', 'Roboto', sans-serif; font-size: 1.2em; color: #2c3e50; margin: 12px 0; font-weight: 600;">Thank you everyone for your feedback!</p>
+      <p style="font-family: 'Segoe UI', 'Roboto', sans-serif; font-size: 1.1em; color: #34495e; line-height: 1.6; margin: 12px 0; font-weight: 500;">If you have any suggestions or feedback, please feel free to share it with us.</p>
+      <p style="font-family: 'Segoe UI', 'Roboto', sans-serif; font-size: 1.1em; color: #34495e; line-height: 1.6; margin: 12px 0; font-weight: 500;">You can also contribute to this project by reporting issues or suggesting improvements.</p>
+      <a href="https://github.com/sudo-hope0529/CC_practice_quiz/issues/new?title=Feedback+@cc_practice_quiz&body=@sudo-hope0529[Krishna Dwivedi]%0A " target="_blank">
+         <button class="feedback-btn" style="font-family: 'Segoe UI', 'Roboto', sans-serif; font-size: 1.1em; font-weight: 500; padding: 12px 24px; border-radius: 6px; border: none; background-color: #2c3e50; color: white; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Give Feedback on GitHub</button>
+     </a>
+     <style>
+        .feedback-btn:hover {
+            background-color: #34495e !important;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+     </style>
+   </footer>
+</body>
+</html>

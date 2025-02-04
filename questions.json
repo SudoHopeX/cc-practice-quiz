@@ -1,0 +1,630 @@
+[
+   {
+       "question": "Which statement accurately describes the proper sequence of ISC2 phases in the data cycle process?",
+       "options": [
+           "Store, Create, Use, Share, Archive, and Destroy",
+           "Use, Store, Create, Share, Archive, and Destroy",
+           "Destroy, Store, Use, Share, Archive, and Create",
+           "Create, Store, Use, Share, Archive, and Destroy"
+       ],
+       "answer": "Create, Store, Use, Share, Archive, and Destroy",
+       "explanation": "explanation"
+   },
+   {
+       "question": "Which of the following is an appropriate risk response when the identified risk exceeds the org risk tolerance?",
+       "options": [
+           "Risk Mitigation",
+           "Risk Acceptance",
+           "Risk Transfer",
+           "Risk Avoidance"
+       ],
+       "answer": "Risk Avoidance",
+       "explanation": "explanation"
+   },
+   {
+       "question": "Which of the following is an appropriate risk response when the identified risk falls within the org risk tolerance?",
+       "options": [
+           "Risk Mitigation",
+           "Risk Acceptance",
+           "Risk Transfer",
+           "Risk Avoidance"
+       ],
+       "answer": "Risk Acceptance",
+       "explanation": "explanation"
+   },
+   {
+       "question": "Which of the following is an appropriate risk response that includes taking actions to prevent or reduce the possibility of Impact?",
+       "options": [
+           "Risk Mitigation",
+           "Risk Acceptance",
+           "Risk Transfer",
+           "Risk Avoidance"
+       ],
+       "answer": "Risk Mitigation",
+       "explanation": "explanation"
+   },
+   {
+       "question": "Which of the following is an appropriate risk response practice of passing the risk to another party, who will accept the financial impact of the harm?",
+       "options": [
+           "Risk Mitigation",
+           "Risk Acceptance",
+           "Risk Transfer",
+           "Risk Avoidance"
+       ],
+       "answer": "Risk Transfer",
+       "explanation": "explanation"
+   },
+   {
+       "question": "What is the primary objective of Risk Assessment [IR, AR, Eval]?",
+       "options": [
+           "Prioritize by risk level & used to inform risk response decision",
+           "Identify threat events that could be produced by those sources",
+           "Communicate risk assessment results to designated organizational stakeholders",
+           "Mitigate the risk"
+       ],
+       "answer": "Prioritize by risk level & used to inform risk response decision",
+       "explanation": "explanation"
+   },
+   {
+       "question": "Which of the following options doesn't represent a type of control?",
+       "options": [
+           "Physical Control",
+           "Technical Control",
+           "Administrative Control",
+           "Preventative Control"
+       ],
+       "answer": "Preventative Control",
+       "explanation": "explanation"
+   },
+   {
+       "question": "Which of the following is not one of the canon?",
+       "options": [
+           "Protect society, the common good, necessary public trust & confidence, and the infrastructures.",
+           "Act honorably, honesty, justly, responsibly & legally",
+           "Provide diligent & competent service to principals.",
+           "Requires that we adhere, and be seem to adhere, to the highest ethical standards of behavior"
+       ],
+       "answer": "Requires that we adhere, and be seem to adhere, to the highest ethical standards of behavior",
+       "explanation": "explanation"
+   },
+   {
+       "question": "What factors need to be considered most when deciding to implement a control?",
+       "options": [
+           "Control cost vs Impact",
+           "Confidentiality vs Integrity",
+           "Eliminate risk",
+           "Cost benefit analysis"
+       ],
+       "answer": "Control cost vs Impact",
+       "explanation": "explanation"
+   },
+      {
+          "question": "Which type of control is introduced in an org to direct an employee's behavior?",
+          "options": [
+              "Administrative Controls",
+              "Physical Controls",
+              "Technical Controls",
+              "Preventative Controls"
+          ],
+          "answer": "Administrative Controls",
+       "explanation": "explanation"
+      },
+      {
+          "question": "What is the primary purpose of a Business Continuity plan in the enterprise?",
+          "options": [
+              "Provides procedures for sustaining mission/business operations while recovering from a significant disruption.",
+              "Provides procedures for disseminating internal & external communications.",
+              "Provides procedures for mitigating & correcting a cyber attack.",
+              "Provides procedures for relocating info sys operations to an alternate location."
+          ],
+          "answer": "Provides procedures for sustaining mission/business operations while recovering from a significant disruption.",
+       "explanation": "explanation"
+      },
+      {
+          "question": "In a scenario where multiple documents are being reviewed (an Audit), which one of them is not mandatory for inclusion?",
+          "options": [
+              "Policy",
+              "Procedure",
+              "Standard",
+              "Guideline"
+          ],
+          "answer": "Guideline",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Proper documentation of evidence is important to support any future investigations or legal proceedings. In which stage of the incident management process must we acquire, preserve, secure, and document evidence?",
+          "options": [
+              "Detection & Analysis",
+              "Preparation",
+              "Containment, Eradication, and Recovery",
+              "Post-Incident Activity"
+          ],
+          "answer": "Containment, Eradication, and Recovery",
+       "explanation": "explanation"
+      },
+      {
+          "question": "In which stage of the incident management process do we determine whether an incident has occurred?",
+          "options": [
+              "Detection & Analysis",
+              "Preparation",
+              "Containment, Eradication, and Recovery",
+              "Post-Incident Activity"
+          ],
+          "answer": "Detection & Analysis",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which phase of the incident response process helps us to improve security measures and the incident handling process?",
+          "options": [
+              "Detection & Analysis",
+              "Preparation",
+              "Containment, Eradication, and Recovery",
+              "Post-Incident Activity"
+          ],
+          "answer": "Post-Incident Activity",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which type of Access Control leaves a certain amount of Access Control to the discretion of the object's owner or anyone else authorized to control the object's access?",
+          "options": [
+              "DAC",
+              "NDAC",
+              "MAC",
+              "RBAC"
+          ],
+          "answer": "DAC",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which type of access control system enforces the system's security policy through the use of security labels?",
+          "options": [
+              "DAC",
+              "NDAC",
+              "MAC",
+              "RBAC"
+          ],
+          "answer": "MAC",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which principle addresses infosec strategy integrating people, tech, and operations capabilities to establish variable barriers across multiple missions of the org?",
+          "options": [
+              "Separation of Duties",
+              "Principle of least privilege",
+              "Defense in Depth",
+              "Privilege Function"
+          ],
+          "answer": "Defense in Depth",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which of the following principles dictates that each task, process, or user is granted the minimum rights required to perform its job?",
+          "options": [
+              "Separation of Duties",
+              "Principle of least privilege",
+              "Defense in Depth",
+              "Privilege Function"
+          ],
+          "answer": "Principle of least privilege",
+          "explanation": "explanation"
+      },
+      {
+          "question": "What protocol must be utilized for remotely managing a firewall?",
+          "options": [
+              "Telnet",
+              "FTP",
+              "SSH",
+              "HTTP"
+          ],
+          "answer": "SSH",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which solution monitors the characteristics of a single host and the events occurring within that host for suspicious activity?",
+          "options": [
+              "HIDS",
+              "NIDS",
+              "SIEM",
+              "Antivirus"
+          ],
+          "answer": "HIDS",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which monitors network traffic for particular network segments or devices and analyzes the network and application protocol activity to identify suspicious activity?",
+          "options": [
+              "HIDS",
+              "NIDS",
+              "SIEM",
+              "Antivirus"
+          ],
+          "answer": "NIDS",
+       "explanation": "explanation"
+      },
+      {
+          "question": "Which of the following solutions is not used to identify threats?",
+          "options": [
+              "IDS",
+              "SIEM",
+              "NIDS",
+              "NIPS"
+          ],
+          "answer": "NIPS",
+       "explanation": "explanation"
+      },
+      {
+         "question": "Which cryptography algorithm uses the same secret key for its operation and if applicable for reversing the effects of operation?",
+         "options": [
+             "Symmetric",
+             "Asymmetric",
+             "Hash",
+             "Digital Signature"
+         ],
+         "answer": "Symmetric",
+       "explanation": "explanation"
+     },
+      {
+          "question": "Which process establishes and maintains a framework & supporting management structure and process to provide assurance that infosec strategies are aligned with business objectives, consistent with applicable laws and regulations through adherence to policies and internal controls, and provide assignment of responsibility, all in an effort to manage risk?",
+          "options": [
+              "Risk Management",
+              "Compliance Management",
+              "Security Governance",
+              "Risk Assessment"
+          ],
+          "answer": "Security Governance",
+       "explanation": "explanation"
+      },
+      {
+          "question": "What is the most effective physical control you would like to suggest for a data center to prevent unauthorized access?",
+          "options": [
+              "Mantrap Control configured with biometrics",
+              "Only Mantrap Control",
+              "Install Tailgating with Biometric",
+              "Install Tailgating"
+          ],
+          "answer": "Mantrap Control configured with biometrics",
+          "explanation": "explanation"
+      },
+      {
+          "question": "Prabh is a part of the legal team, they wish to protect the brand name and goodwill of the company. Recently some other company used their brand name to sell products and services in the market. What is the most important action you will recommend to Prabh to take to protect the brand?",
+          "options": [
+              "Filed Patent [protect idea]",
+              "Filed for trademark [protect name & brand]",
+              "Filed for copyright [expression of idea]",
+              "Filed for trade secret [protect competitive advantage]"
+          ],
+          "answer": "Filed for trademark [protect name & brand]",
+       "explanation": "Filed Patent [protect idea], Filed for trademark [protect name & brand], Filed for copyright [expression of idea] and Filed for trade secret [protect competitive advantage]"
+      },
+      {
+          "question": "Prabh recently joined a security consultant position in a healthcare company in the US. The company collects and processes healthcare data for further analysis. Which of the following primary regulations compliance must they achieve?",
+          "options": [
+              "HIPAA",
+              "PCIDSS",
+              "FEDRAMP",
+              "ISO 27001"
+          ],
+          "answer": "HIPAA",
+          "explanation": "explanation"
+      },
+      {
+          "question": "Aspirants technology solutions leaders in digital payment services. They have already obtained PCI DSS Certification. By increasing the number of transactions, they moved from on-premises to a cloud provider for IaaS service. In this scenario, who must be taking accountability for PCI DSS accreditation?",
+          "options": [
+              "Cloud Provider",
+              "Cloud Customer",
+              "Data Subject",
+              "Regulator"
+          ],
+          "answer": "Cloud Customer",
+          "explanation": "explanation"
+      },
+      {
+          "question": "Before migrating applications or data to a cloud computing environment, which is the most critical requirement to review?",
+          "options": [
+              "Laws or regulations that apply and the relevant duties or obligations imposed on both the customer and provider",
+              "Laws or regulations that apply and the relevant duties or obligations imposed on the customer",
+              "Laws or regulations that apply and the relevant duties or obligations imposed on the provider",
+              "Which certification is most appropriate depends to some extent on the category of the cloud service and on the customer's regional and industry requirement"
+          ],
+          "answer": "Laws or regulations that apply and the relevant duties or obligations imposed on both the customer and provider",
+          "explanation": "explanation"
+      },
+      {
+          "question": "An org needs to implement a security solution that can monitor its environment for signs of malicious activity and report any suspicious activities to admins. Which of the following solutions is best suited for this purpose?",
+          "options": [
+              "IDS [Intrusion Detection System]",
+              "IPS [Intrusion Prevention System]",
+              "Firewall [blocks unauthorized access requests]",
+              "DLP [Data Loss Prevention]"
+          ],
+          "answer": "IDS [Intrusion Detection System]",
+          "explanation": "explanation"
+      },
+      {
+          "question": "An org is planning to enhance its network security by deploying a firewall. To ensure optimal protection, the firewall should be placed in a strategic location within the network infrastructure. Which of the following is the ideal location for the firewall?",
+          "options": [
+              "Inside the internal network, protecting against internal threats",
+              "Between the org's routers and the internet",
+              "Directly on end user device to monitor all traffic",
+              "Within the sender farm to protect critical servers"
+          ],
+          "answer": "Between the org's routers and the internet",
+          "explanation": "explanation"
+      },
+      {
+          "question": "An org is in the process of establishing a relationship with a new vendor and wants to ensure that the vendor meets specific service quality expectations. These requirements should address any concerns the org has about the quality of service provided by the vendor. Which of the following documents best provides the org's expectations of the vendor during the relationship?",
+          "options": [
+              "SLA [Service Level Agreement]",
+              "MOU [Memorandum of Understanding]",
+              "Policy",
+              "Data Classification"
+          ],
+          "answer": "SLA [Service Level Agreement]",
+          "explanation": "explanation"
+      },
+      {
+         "question": "Malicious traffic from an internal network has been detected on an unauthorized port on an application server. Which of the following network-based security controls should the engineer consider implementing?",
+         "options": [
+             "ACLs [Access Control Lists on firewall]",
+             "HIPS [Host Intrusion Prevention System]",
+             "NAT [Network Address Translation]",
+             "MAC filtering"
+         ],
+         "answer": "ACLs [Access Control Lists on firewall]",
+          "explanation": "explanation"
+     },
+     {
+         "question": "Which statement is true about a Disaster Recovery (DR) plan?",
+         "options": [
+             "Establishes procedures to address cyber attacks against an org's information systems",
+             "Documentation of a predetermined set of instructions or procedures that describes how an org's mission/business process will be sustained during & after a significant disruption",
+             "Process of analyzing operational functions & the effect that a disruption might have on them",
+             "Written plan for recovering one or more information systems at an alternate facility in response to a major hardware or software failure or destruction of facilities"
+         ],
+         "answer": "Documentation of a predetermined set of instructions or procedures that describes how an org's mission/business process will be sustained during & after a significant disruption",
+          "explanation": "explanation"
+     },
+     {
+         "question": "In an org's security framework, various documents outline policies, procedures, and guidelines. Which of the following documents contains elements that are not mandatory?",
+         "options": [
+             "Policy",
+             "Standards",
+             "Guideline",
+             "Procedure"
+         ],
+         "answer": "Guideline",
+          "explanation": "explanation"
+     },
+     {
+         "question": "Digital signatures are widely used to ensure various security properties in electronic communication and documents. Which of the following properties is not provided by digital signatures?",
+         "options": [
+             "Integrity",
+             "Non-repudiation",
+             "Confidentiality",
+             "Authentication"
+         ],
+         "answer": "Confidentiality",
+          "explanation": "explanation"
+     },
+     {
+         "question": "An org's IT department notices that several critical systems have become inaccessible and are displaying messages demanding a specific action to regain access. The employees are unable to access their files, and the IT staff confirms that the data on these devices is encrypted. Which type of attack is most likely responsible for this situation?",
+         "options": [
+             "Phishing",
+             "Denial-of-service",
+             "Ransomware",
+             "MitM [Man-in-the-Middle]"
+         ],
+         "answer": "Ransomware",
+          "explanation": "explanation"
+     },
+     {
+         "question": "Which of the following is the best metric to measure security awareness training effectiveness in the org?",
+         "options": [
+             "Increase in incident reports",
+             "Increase in security violations",
+             "Decrease in incident reports",
+             "Number of password requests"
+         ],
+         "answer": "Decrease in incident reports",
+          "explanation": "explanation"
+     },
+     {
+         "question": "What is the primary objective of security awareness training?",
+         "options": [
+             "To inform users of the latest attacks",
+             "To meet regulatory requirements",
+             "To meet policy requirements",
+             "To notify employees of information security responsibilities"
+         ],
+         "answer": "To notify employees of information security responsibilities",
+          "explanation": "explanation"
+     },
+     {
+         "question": "Which of the following actions would most effectively address the concern by communicating how the org handles personal data?",
+         "options": [
+             "Implementing strong encryption for all user data stored on the company's servers",
+             "Conduct a thorough security risk assessment of the new location sharing feature",
+             "Updating the company's terms of service to include details about location data collection",
+             "Developing a comprehensive privacy policy that outlines the collection, use, and storage practices for location data"
+         ],
+         "answer": "Developing a comprehensive privacy policy that outlines the collection, use, and storage practices for location data",
+          "explanation": "explanation"
+     },
+     {
+         "question": "A large university has recently experienced a significant increase in malware infections on student-owned devices connected to the campus network. The university suspects these infections might be originated from unauthorized file-sharing activities. Which policy would most effectively address this issue by outlining acceptable and unacceptable uses of the campus network, including restrictions on file-sharing activities?",
+         "options": [
+             "Information Security Policy",
+             "Disaster Recovery Plan",
+             "Acceptable Use Policy",
+             "Data Handling Policy"
+         ],
+         "answer": "Acceptable Use Policy",
+          "explanation": "explanation"
+     },
+     {
+         "question": "A company is implementing a new security policy that requires all desktops to install specific antivirus software and enable real-time scanning. The IT team is responsible for managing hundreds of desktops across multiple locations. Which of the following functions is most useful in achieving this objective?",
+         "options": [
+             "Patch Management",
+             "Configuration Management",
+             "Change Management",
+             "Incident Management"
+         ],
+         "answer": "Configuration Management",
+          "explanation": "explanation"
+     },
+     {
+      "question": "In a large retail chain company, I am a security analyst responsible for protecting the company's data and systems. Recently, the CEO received an email that appeared to be from the company's legal department, requesting urgent wire transfer information for a critical legal case. The email contained a link to a website that looked almost identical to the company's legal department portal. Which type of phishing attack is most likely being used in this scenario?",
+      "options": [
+          "Smishing [text message]",
+          "Whaling [higher management targeting]",
+          "Spear Phishing [targeting company]",
+          "Pharming [redirecting to fake websites that look legitimate]"
+      ],
+      "answer": "Whaling [higher management targeting]",
+      "explanation": "Smishing [text message], Whaling [higher management targeting], Spear Phishing [targeting company], Pharming [redirecting to fake websites that look legitimate]"
+  },
+  {
+      "question": "According to the OSI model, at which of the following layers is data encapsulated into the packet?",
+      "options": [
+          "7th layer [Application]",
+          "4th layer [Transport]",
+          "3rd layer [Network]",
+          "2nd layer [Data Link]"
+      ],
+      "answer": "3rd layer [Network]",
+          "explanation": "explanation"
+  },
+  {
+      "question": "According to the OSI model, the layer that ensures that the information it exchanges with its peers is error-free?",
+      "options": [
+          "7th layer [Application]",
+          "4th layer [Transport]",
+          "3rd layer [Network]",
+          "2nd layer [Data Link]"
+      ],
+      "answer": "4th layer [Transport]",
+          "explanation": "explanation"
+  },
+  {
+      "question": "According to the OSI model, which layer handles data transfer between applications, flow control, and error detection and correction?",
+      "options": [
+          "7th layer [Application]",
+          "4th layer [Transport]",
+          "3rd layer [Network]",
+          "2nd layer [Data Link]"
+      ],
+      "answer": "4th layer [Transport]",
+          "explanation": "explanation"
+  },
+  {
+      "question": "According to the OSI model, the layer that ensures that the information is encrypted and encoded?",
+      "options": [
+          "7th layer [Application]",
+          "4th layer [Transport]",
+          "3rd layer [Network]",
+          "6th layer [Presentation]"
+      ],
+      "answer": "6th layer [Presentation]",
+      "explanation": "explanation"
+  },
+  {
+      "question": "In a network security assessment, we discover that the port number 1123 is frequently utilized for communication between a client application and a server. Which category of port class does port number 1123 belong to?",
+      "options": [
+          "Well-known ports [0-1023]",
+          "Registered ports [1024-49151]",
+          "Dynamic Ports [49152-65535]",
+          "Ephemeral Ports [another name for dynamic]"
+      ],
+      "answer": "Registered ports [1024-49151]",
+      "explanation": "Well-known ports [0-1023], Registered ports [1024-49151], Dynamic Ports [49152-65535],Ephemeral Ports [another name for dynamic]"
+  },
+  {
+      "question": "Which layer of the OSI model does DNS, SMTP, and HTTP operate on?",
+      "options": [
+          "Application",
+          "Physical",
+          "Network",
+          "Transport"
+      ],
+      "answer": "Application",
+      "explanation": "explanation"
+  },
+  {
+      "question": "You are the network admin responsible for managing the network infrastructure of a large company. Recently, you have been tasked with reviewing and securing the org's network ports to enhance its overall security posture. As part of your assessment, you examine the functions associated with various port numbers. During your analysis, you identify port number 53 being used extensively within your network. Considering this scenario, what is the primary purpose of port 53 in this context?",
+      "options": [
+          "Facilitating SFTP operations within the network [20121]",
+          "Enabling HTTPS communication for web browsing activities [443]",
+          "Utilized for DNS resolution and mapping domain names to IP addresses",
+          "Serves as a secure channel for RDP connections [3389]"
+      ],
+      "answer": "Utilized for DNS resolution and mapping domain names to IP addresses",
+      "explanation": "explanation"
+  },
+  {
+      "question": "A company is experiencing a problem where users trying to access its website are unknowingly redirected to different sites, even though they typed the correct address. Which of the following security measures would be most effective in preventing similar incidents in the future?",
+      "options": [
+          "DNSSEC",
+          "HTTPS",
+          "IPSec",
+          "TLS/SSL"
+      ],
+      "answer": "DNSSEC",
+      "explanation": "explanation"
+  },
+  {
+      "question": "An information security manager is concerned that connectivity used to configure and troubleshoot critical network services could be attacked. Which of the following would be the best recommendation for the network security engineer to present?",
+      "options": [
+          "Use SMTPS",
+          "Use SSH",
+          "Use HTTP",
+          "Use FTP"
+      ],
+      "answer": "Use SSH",
+      "explanation": "explanation"
+  },
+  {
+   "question": "An org needs to secure data transmission over the internet to prevent manipulation, eavesdropping, and Man-in-the-Middle attacks. Which protocol should you implement to achieve this level of security?",
+   "options": [
+       "FTP",
+       "SMTP",
+       "SSL/TLS",
+       "IMAP"
+   ],
+   "answer": "SSL/TLS",
+   "explanation": "explanation"
+},
+{
+   "question": "Your org has identified a vulnerability where attackers are able to use precomputed hash tables (rainbow tables) to crack hashed passwords. Which technique should you implement to mitigate this problem by ensuring that even identical passwords don't produce the same hash?",
+   "options": [
+       "Implementing symmetric key encryption on the hash values",
+       "Salting the passwords before hashing",
+       "Using longer and more complex hash functions",
+       "Applying strong hashing algorithms such as SHA, MD5"
+   ],
+   "answer": "Salting the passwords before hashing",
+   "explanation": "explanation"
+},
+{
+   "question": "As a security practitioner, you are tasked with enhancing the security posture of an enterprise network. One of the proposed solutions is network segmentation. Under which of the following conditions would network segmentation be primarily used to improve the security and performance of the network?",
+   "options": [
+       "To increase the overall bandwidth available to all devices on the network",
+       "To isolate sensitive data and critical systems from the rest of the network, thereby limiting access and reducing the potential impact of a security breach",
+       "To streamline the process of updating software on all devices within the network simultaneously",
+       "To control and manage traffic more effectively thus improving network performance and reducing congestion in certain network segments"
+   ],
+   "answer": "To isolate sensitive data and critical systems from the rest of the network, thereby limiting access and reducing the potential impact of a security breach",
+    "explanation": "explanation"
+},
+{
+   "question": "Which protocol is primarily used by the ping utility to test the network connection between computers by sending echo request messages and receiving echo reply messages?",
+   "options": [
+       "HTTP",
+       "TCP",
+       "ICMP",
+       "DNS"
+   ],
+   "answer": "ICMP",
+   "explanation": "explanation"
+}
+
+]
