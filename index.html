@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <button id="show-data-info" style="position: fixed; bottom: 20px; right: 20px; font-size: 12px; padding: 8px 12px; background-color: #f8f9fa; color: #666; border: 1px solid #dce4ec; border-radius: 4px; cursor: pointer;">Know what we do with your info</button>
+        <button id="show-data-info" style="position: fixed; bottom: 20px; right: 20px; font-size: 12px; padding: 8px 12px; background-color: #f8f9fa; color: #666; border: 1px solid #dce4ec; border-radius: 4px; cursor: pointer;">Know what we do with your info🤔</button>
         <div id="data-info" style="display: none; position: fixed; bottom: 60px; right: 20px; width: 300px; padding: 15px; background-color: white; border: 1px solid #dce4ec; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
             <h3>We do nothing🚫 with your information as it is neither stored📝 nor forwardedz📩 anywhere.</h3>
             <p> Your information is only used to add better user experience💗 to you while giving this quiz</p>
@@ -65,7 +65,7 @@
                     this.textContent = 'Hide info';
                 } else {
                     dataInfo.style.display = 'none';
-                    this.textContent = 'Know what we do with your info';
+                    this.textContent = 'Know what we do with your info🤔';
                 }
             });
 
@@ -76,7 +76,7 @@
                 
                 if (!dataInfo.contains(event.target) && !showDataBtn.contains(event.target)) {
                     dataInfo.style.display = 'none';
-                    showDataBtn.textContent = 'Know what we do with your info';
+                    showDataBtn.textContent = 'Know what we do with your info🤔';
                 }
             });
         </script>
