@@ -778,25 +778,7 @@
             "Generic control"
         ],
         "answer": "Technical control",
-        "explanation": {
-            "main": "Firewalls, electronic badge readers, and access control lists are all examples of technical controls. These controls use technology to enforce security policies and protect information systems.",
-            "note": "However, it's worth noting that electronic badge readers can also be considered a form of physical control since they are used to restrict physical access to facilities.",
-            "context": "But in the context of the options provided, the most appropriate classification for firewalls and access control lists is as technical controls.",
-            "otherOptions": [
-                {
-                    "option": "b) Administrative control",
-                    "detail": "refers to policies and procedures that govern security practices"
-                },
-                {
-                    "option": "c) Physical control",
-                    "detail": "involves measures taken to protect physical assets and facilities"
-                },
-                {
-                    "option": "d) Generic control",
-                    "detail": "is not a standard classification in security controls"
-                }
-            ]
-        }
+        "explanation": "Firewalls, electronic badge readers, and access control lists are all examples of technical controls. These controls use technology to enforce security policies and protect information systems. However, it's worth noting that electronic badge readers can also be considered a form of physical control since they are used to restrict physical access to facilities. But in the context of the options provided, the most appropriate classification for firewalls and access control lists is as technical controls. Wbereas other options, b) Administrative control: refers to policies and procedures that govern security practices, c) Physical control: involves measures taken to protect physical assets and facilities, d) Generic control: is not a standard classification in security controls"
     },
     {
         "question": "Which controls implemented through a tangible mechanism such as walls, fences, guards, locks?",
