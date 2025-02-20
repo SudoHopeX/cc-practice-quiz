@@ -5,11 +5,11 @@ A comprehensive practice platform for the ISC2 CC certification exam, designed t
 ## 🚀 Quick Start
 1. Visit: [CC Practice Quiz](https://sudo-hope0529.github.io/cc-practice-quiz/)
 2. Enter your name
-3. Choose number of questions (1-97)
+3. Choose number of questions (1-144)
 4. Start the quiz!
 
 ## 📚 Question Bank
-- Total Questions: ~100
+- Total Questions: ~150
 - Covers all 5 CC domains:
   - Security Principles
   - Business Continuity, DR & Incident Response
