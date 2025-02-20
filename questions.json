@@ -1,4 +1,4 @@
-[
+4[
    {
        "question": "Which statement accurately describes the proper sequence of ISC2 phases in the data cycle process?",
        "options": [
@@ -1584,5 +1584,93 @@
         ],
         "answer": "Risk management",
         "explanation": "Risk management involves identifying potential risks to an organization’s information systems, assessing their likelihood and impact, and implementing security measures to mitigate or manage those risks effectively. The other options are specific security practices that do not encompass the overall process of risk management."
+    },
+{
+        "question": "Which of the following is a true statement of Software as a Service (SaaS)?",
+        "options": [
+            "Capability for Customers to use the Provider's applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "Capability for Provider to use the Customer applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "Capability for Provider to use the Regulated applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "Capability for Customers to deploy their applications (created or acquired) onto the cloud infrastructure, using programming languages, libraries, services and tools supported by the Provider."
+        ],
+        "answer": "Capability for Customers to use the Provider's applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+        "explanation": "SaaS allows customers to access and use applications hosted by a provider over the internet, typically through a web browser. The other options incorrectly describe the roles of customers and providers in the SaaS model."
+    },
+    {
+        "question": "Which of the following is a true statement regarding Infrastructure as a Service (IaaS)?",
+        "options": [
+            "Capability for Customers to utilize the Provider's processing, storage, networks and other fundamental computing resources to deploy and run operating systems, applications and other software on a cloud infrastructure.",
+            "Capability for Customers to deploy their applications (created or acquired) onto the cloud infrastructure, using programming languages, libraries, services and tools supported by the Provider.",
+            "Capability for Customers to use the Provider's applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "Capability for Provider to utilize the Client processing, storage, networks and other fundamental computing resources to deploy and run operating systems, applications, and other software on a cloud infrastructure."
+        ],
+        "answer": "Capability for Customers to utilize the Provider's processing, storage, networks and other fundamental computing resources to deploy and run operating systems, applications and other software on a cloud infrastructure.",
+        "explanation": "IaaS provides customers with virtualized computing resources over the internet, allowing them to deploy and manage their own operating systems and applications. The other options misrepresent the roles and capabilities associated with IaaS."
+    },
+    {
+        "question": "Which type of cloud deployment requires data standard, portability and integration?",
+        "options": [
+            "Hybrid cloud",
+            "Public Cloud",
+            "Private Cloud",
+            "Community Cloud"
+        ],
+        "answer": "Hybrid cloud",
+        "explanation": "A hybrid cloud deployment combines public and private clouds, allowing for data portability and integration between different environments. The other options do not inherently focus on the need for data standardization and integration."
+    },
+    {
+        "question": "Azpirantz LLP establishes a corporate infrastructure and develops a customer-facing web application by utilizing several SaaS and IaaS platforms. Which of the following solutions would be BEST for providing platform monitoring and visibility?",
+        "options": [
+            "SIEM",
+            "CASB (Cloud Access Security Broker)",
+            "Firewall",
+            "Vulnerability scanner"
+        ],
+        "answer": "CASB (Cloud Access Security Broker)",
+        "explanation": "A Cloud Access Security Broker (CASB) is a security intermediary that enforces enterprise security policies when cloud-based resources are accessed. CASBs help protect cloud-hosted services from cyber attacks and data leaks, offering various security technologies such as shadow IT discovery, access control, and data loss prevention (DLP). They are crucial for extending an organization's security policy to cover cloud resources. The other options serve different purposes and do not provide the same level of visibility and monitoring for cloud environments."
+    },
+    {
+        "question": "Which of the following types of attack is being used when an attacker responds by sending the MAC address of the attacking machine to resolve the MAC to IP address of a valid server?",
+        "options": [
+            "Session hijacking",
+            "IP spoofing",
+            "Evil twin",
+            "ARP poisoning"
+        ],
+        "answer": "ARP poisoning",
+        "explanation": "ARP poisoning, also known as ARP spoofing, is an attack where an attacker sends falsified ARP (Address Resolution Protocol) messages over a local area network. This allows the attacker to associate their MAC address with the IP address of a legitimate server, effectively redirecting traffic intended for that server to the attacker's machine. Session hijacking involves taking over a user's session after authentication, IP spoofing refers to sending IP packets from a false (or 'spoofed') source address, and an evil twin attack involves setting up a rogue Wi-Fi access point that mimics a legitimate one to intercept data. None of these options involve the specific manipulation of MAC addresses in the way ARP poisoning does."
+    },
+    {
+        "question": "Which of the following BEST describes an attack where communications between two parties are intercepted and forwarded to each party with neither party being aware of the interception and potential modification to the communications?",
+        "options": [
+            "Spear phishing",
+            "Man-in-the-middle",
+            "URL hijacking",
+            "Transitive access"
+        ],
+        "answer": "Man-in-the-middle",
+        "explanation": "A man-in-the-middle (MitM) attack occurs when an attacker intercepts and relays messages between two parties who believe they are directly communicating with each other. This type of attack can allow the attacker to eavesdrop on the conversation and potentially alter the messages without either party being aware. Spear phishing is a targeted phishing attack aimed at a specific individual or organization, URL hijacking involves redirecting users from a legitimate website to a malicious one, and transitive access refers to unauthorized access gained through a trusted relationship, none of which accurately describe the interception of communications."
+    },
+    {
+        "question": "Which of the following attacks can be used to exploit a vulnerability that untrained users created?",
+        "options": [
+            "Spear-phishing email with a file attachment",
+            "DNS Poisoning",
+            "Man-in-the-middle attack",
+            "A domain hijacking of a bank website"
+        ],
+        "answer": "Spear-phishing email with a file attachment",
+        "explanation": "Spear-phishing attacks are highly targeted emails sent to individuals, often containing malicious attachments or links, designed to trick the recipient into revealing sensitive information or downloading malware. These attacks exploit the vulnerabilities created by untrained users who may not recognize the signs of phishing. DNS poisoning involves corrupting the DNS cache to redirect users, a man-in-the-middle attack intercepts communications, and domain hijacking involves taking control of a domain name, none of which directly exploit user vulnerabilities in the same way as spear-phishing."
+    },
+    {
+        "question": "Which of the following attacks involves attackers encrypting an organization's data and demanding payment to restore access?",
+        "options": [
+            "DOS Attack",
+            "Ransomware Attack",
+            "Sniffing Attack",
+            "Monitoring Attack"
+        ],
+        "answer": "Ransomware Attack",
+        "explanation": "A ransomware attack is a type of malicious software that encrypts an organization's data, rendering it inaccessible until a ransom is paid to the attacker. This attack specifically targets data and demands payment for decryption. A DOS (Denial of Service) attack aims to make a service unavailable, a sniffing attack involves capturing network traffic to gather information, and a monitoring attack typically refers to unauthorized surveillance of communications, none of which involve the encryption of data for ransom."
     }
 ]
