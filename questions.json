@@ -1065,6 +1065,524 @@
         ],
         "answer": "BIA",
         "explanation": "The Business Impact Analysis (BIA) is the first source for determining resiliency and contingency planning strategies. The BIA helps organizations identify and evaluate the potential effects of disruptions on their operations. It assesses the criticality of business functions, the impact of downtime, and the resources required for recovery. By understanding which processes are essential and the consequences of their disruption, organizations can develop effective contingency planning strategies and resilience measures. The insights gained from the BIA inform the development of recovery strategies and the overall Business Continuity Plan (BCP)."
+    },
+{
+        "question": "Which access control model have very limited user functionality, requires a lot of administrative overhead, are extremely expensive, and are not user friendly?",
+        "options": [
+            "MAC",
+            "DAC",
+            "RBAC",
+            "RUBAC"
+        ],
+        "answer": "MAC",
+        "explanation": "Mandatory Access Control (MAC) is a model that enforces strict access controls based on predefined policies set by a central authority. It is not user-friendly as it limits user functionality and requires significant administrative overhead to manage permissions. Other options like DAC (Discretionary Access Control) and RBAC (Role-Based Access Control) offer more flexibility and user-friendliness, while RUBAC (Rule-Based Access Control) is less common and not as widely recognized."
+    },
+    {
+        "question": "Which access control model simplifies access control administration by allowing permissions to be managed in terms of user job roles?",
+        "options": [
+            "MAC",
+            "DAC",
+            "RBAC",
+            "RUBAC"
+        ],
+        "answer": "RBAC",
+        "explanation": "Role-Based Access Control (RBAC) simplifies access control by assigning permissions based on user roles within an organization. This model allows for easier management of permissions as they can be adjusted at the role level rather than individually for each user. MAC and DAC do not focus on job roles, and RUBAC is not a standard model."
+    },
+    {
+        "question": "Which type of access control is primarily utilized in High Security Environment?",
+        "options": [
+            "MAC",
+            "DAC",
+            "RBAC",
+            "RuBAC"
+        ],
+        "answer": "MAC",
+        "explanation": "Mandatory Access Control (MAC) is primarily used in high-security environments where strict access controls are necessary. It enforces policies that restrict access based on security labels. DAC and RBAC are more flexible and user-friendly, making them less suitable for high-security contexts, while RuBAC is not a widely recognized model."
+    },
+    {
+        "question": "Which type of account represents a high-value target and requires more protection?",
+        "options": [
+            "Privileged account",
+            "User account",
+            "Service Account",
+            "File Account"
+        ],
+        "answer": "Privileged account",
+        "explanation": "Privileged accounts have elevated access rights and can perform critical functions within a system, making them high-value targets for attackers. User accounts and service accounts typically have lower privileges, while file accounts are not standard terminology in access control."
+    },
+    {
+        "question": "What is the ultimate objective of proper separation of duties?",
+        "options": [
+            "To prevent employees from disclosing sensitive information",
+            "To ensure access controls are in place",
+            "To ensure that no single individual can compromise a system",
+            "To ensure that audit trails are not tampered with"
+        ],
+        "answer": "To ensure that no single individual can compromise a system",
+        "explanation": "The ultimate objective of separation of duties is to prevent any single individual from having control over all aspects of a critical process, thereby reducing the risk of fraud or error. The other options, while important, do not capture the primary goal of this principle."
+    },
+    {
+        "question": "Which of the following is an example of administrative control?",
+        "options": [
+            "Encryption",
+            "Separation of duties",
+            "Physical camera",
+            "Firewall config"
+        ],
+        "answer": "Separation of duties",
+        "explanation": "Separation of duties is an administrative control that involves dividing responsibilities among different individuals to reduce risk. Encryption, physical cameras, and firewall configurations are examples of technical or physical controls, not administrative."
+    },
+    {
+        "question": "What is the most important feature of a biometric identification system?",
+        "options": [
+            "Authorization",
+            "Storage requirements",
+            "Accuracy",
+            "Reliability"
+        ],
+        "answer": "Accuracy",
+        "explanation": "Accuracy is crucial for biometric systems as it determines how reliably the system can identify or verify individuals. While authorization and reliability are important, they are secondary to the need for accurate identification. Storage requirements are also relevant but do not define the system's effectiveness."
+    },
+    {
+        "question": "Which of the following approaches design buildings and spaces that emphasize passive features to reduce the likelihood of criminal activity?",
+        "options": [
+            "CPTED (Crime Prevention Through Environmental Design)",
+            "Security Perimeter",
+            "Privacy by Design",
+            "DMZ"
+        ],
+        "answer": "CPTED (Crime Prevention Through Environmental Design)",
+        "explanation": "CPTED (Crime Prevention Through Environmental Design) focuses on designing environments to deter criminal behavior through natural surveillance, access control, and territorial reinforcement. It emphasizes the use of physical design to enhance security. The other options, such as Security Perimeter and DMZ, are more about network security rather than physical space design, while Privacy by Design focuses on data protection rather than crime prevention."
+    },
+    {
+        "question": "Which type of control is primarily implemented and executed by information systems through mechanisms contained in the firmware or software of the system?",
+        "options": [
+            "Technical Control",
+            "Administrative Control",
+            "Physical Control",
+            "Service Control"
+        ],
+        "answer": "Technical Control",
+        "explanation": "Technical controls are security measures implemented through technology, such as software and hardware mechanisms. They include firewalls, encryption, and access controls. Administrative controls involve policies and procedures, while physical controls relate to tangible security measures like locks and guards. Service control is not a standard term in security."
+    },
+    {
+        "question": "Which of the following is not an example of Administrative Control?",
+        "options": [
+            "Policy and procedures",
+            "Personnel controls",
+            "Acceptable Use Policy",
+            "Security-awareness training",
+            "Badge Reader"
+        ],
+        "answer": "Badge Reader",
+        "explanation": "A badge reader is a physical control used to grant access to secure areas, while the other options are examples of administrative controls that involve policies and procedures to manage user behavior and access."
+    },
+    {
+        "question": "Which of the following is not an example of Physical Control?",
+        "options": [
+            "Security Camera",
+            "Physical Cabling",
+            "Badge Reader",
+            "Appointment of Guard",
+            "Firewall"
+        ],
+        "answer": "Firewall",
+        "explanation": "A firewall is a technical control that manages network traffic and protects against unauthorized access, while the other options are physical controls that involve tangible security measures to protect physical spaces."
+    },
+    {
+        "question": "Prince is working as a finance consultant in the organization. He was on vacation for 15 days. After 15 days, he could not join the office, and there was no further communication with HR. What is the best practice you would like to recommend to the enterprise?",
+        "options": [
+            "Disable the account",
+            "Delete the account",
+            "Call and check why he is not joining",
+            "Modify the Policy"
+        ],
+        "answer": "Disable the account",
+        "explanation": "Disabling the account is a prudent action to prevent unauthorized access while the situation is being clarified. Deleting the account is premature without understanding the circumstances. Calling to check is a good practice, but immediate action to secure the account is necessary. Modifying the policy is not relevant to this specific situation."
+    },
+    {
+        "question": "Which layer provides services to ensure that the peer applications use a common format to represent data?",
+        "options": [
+            "Presentation",
+            "Application",
+            "Transport",
+            "Session"
+        ],
+        "answer": "Presentation",
+        "explanation": "The Presentation layer is responsible for translating data between the application layer and the network. It ensures that data is in a usable format for the application. The Application layer provides network services to applications, while the Transport layer manages end-to-end communication, and the Session layer controls sessions between applications."
+    },
+    {
+        "question": "Web application firewall works on which layer of the OSI model?",
+        "options": [
+            "Session layer",
+            "Presentation",
+            "Application",
+            "Transport"
+        ],
+        "answer": "Application",
+        "explanation": "A Web Application Firewall (WAF) operates at the Application layer of the OSI model, where it monitors and filters HTTP traffic to and from a web application. The Session layer manages sessions, the Presentation layer formats data, and the Transport layer handles data transmission."
+    },
+    {
+        "question": "In which kind of attack does the attacker submit a lot of connection requests extremely quickly, but then ignore the reply that is delivered back to them by the server?",
+        "options": [
+            "Syn flood",
+            "Smurf Attack",
+            "Ping of Death",
+            "ICMP Flood"
+        ],
+        "answer": "Syn flood",
+        "explanation": "A SYN flood attack exploits the TCP handshake by sending a large number of SYN requests to a server, overwhelming it and preventing legitimate connections. Smurf attacks involve ICMP packets sent to a broadcast address, while Ping of Death and ICMP Flood attacks are different types of denial-of-service attacks."
+    },
+    {
+        "question": "An ICMP packet is sent to the broadcast address of a network; however, the return address of the packet has been modified to correspond with one of the machines that are part of that network. Which type of attack are we addressing here?",
+        "options": [
+            "Syn flood",
+            "Smurf Attack",
+            "Ping of Death",
+            "ICMP Flood"
+        ],
+        "answer": "Smurf Attack",
+        "explanation": "A Smurf Attack involves sending ICMP packets to a broadcast address with a spoofed return address, causing all devices on the network to respond to the spoofed address, overwhelming it with traffic. This attack exploits the amplification effect of broadcast addresses. The other options describe different types of attacks that do not involve this specific method of exploiting ICMP."
+    },
+    {
+        "question": "Which of the following is the least secure authentication method that sends the credentials in cleartext?",
+        "options": [
+            "PAP (Password Authentication Protocol)",
+            "CHAP",
+            "EAP (Extensible Authentication Protocol)",
+            "RADIUS"
+        ],
+        "answer": "PAP (Password Authentication Protocol)",
+        "explanation": "PAP is considered the least secure authentication method because it transmits passwords in cleartext, making them vulnerable to interception. CHAP uses a challenge-response mechanism to enhance security, while EAP and RADIUS provide more robust authentication methods that do not send credentials in cleartext."
+    },
+    {
+        "question": "Which of the following metrics used by CHAP by which they defeat the man-in-the-middle attack which occurs in PAP?",
+        "options": [
+            "NONCE",
+            "TOKEN",
+            "TICKET",
+            "Encrypted Password"
+        ],
+        "answer": "NONCE",
+        "explanation": "CHAP uses a nonce (a number used once) in its challenge-response mechanism to ensure that each authentication session is unique, which helps prevent replay attacks and man-in-the-middle attacks. The other options do not specifically address the unique challenge-response mechanism that CHAP employs."
+    },
+    {
+        "question": "A device operating at Layer 3 of the OSI model uses which of the following protocols to determine the path to a different network?",
+        "options": [
+            "TCP",
+            "SIP",
+            "RIP (Routing Information Protocol)",
+            "HTTP"
+        ],
+        "answer": "RIP (Routing Information Protocol)",
+        "explanation": "RIP is a routing protocol used at Layer 3 (Network layer) of the OSI model to determine the best path for data packets to travel across networks. TCP operates at Layer 4 (Transport layer), SIP is used for signaling in multimedia communication, and HTTP operates at Layer 7 (Application layer)."
+    },
+    {
+        "question": "According to the OSI model, which layer handles data transfer between applications, flow control, and error detection and correction?",
+        "options": [
+            "Application layer",
+            "Data link layer",
+            "Network layer",
+            "Transport layer"
+        ],
+        "answer": "Transport layer",
+        "explanation": "The Transport layer is responsible for ensuring reliable data transfer between applications, including flow control and error detection and correction. The Application layer provides services directly to user applications, the Data Link layer manages node-to-node data transfer, and the Network layer handles routing and forwarding of packets."
+    },
+{
+        "question": "Which of the following best describes the principle of least privilege?",
+        "options": [
+            "Ensuring that users have access to all resources",
+            "Limiting user access to the minimum necessary to perform their job functions",
+            "Granting full access to administrators",
+            "Allowing temporary access to users for any tasks"
+        ],
+        "answer": "Limiting user access to the minimum necessary to perform their job functions",
+        "explanation": "The principle of least privilege restricts user access to the minimum necessary permissions, minimizing the risk of unauthorized access and data breaches. The other options either grant excessive access or do not focus on minimizing permissions."
+    },
+    {
+        "question": "What is the primary goal of implementing security policies in an organization?",
+        "options": [
+            "To ensure legal compliance",
+            "To create a framework for security controls and procedures",
+            "To enforce strong passwords",
+            "To train employees in cybersecurity"
+        ],
+        "answer": "To create a framework for security controls and procedures",
+        "explanation": "Security policies provide a structured approach, outlining objectives and measures to ensure a consistent, comprehensive security posture. While legal compliance, password enforcement, and employee training are important, they are components of the broader framework established by security policies."
+    },
+    {
+        "question": "Which security principle focuses on ensuring that data cannot be altered without authorization?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authentication"
+        ],
+        "answer": "Integrity",
+        "explanation": "Integrity ensures that data is accurate and reliable and cannot be modified in an unauthorized manner. This principle protects data from tampering and ensures its trustworthiness. Confidentiality focuses on protecting data from unauthorized access, availability ensures data is accessible when needed, and authentication verifies user identities."
+    },
+    {
+        "question": "Which of the following is an example of a physical security control?",
+        "options": [
+            "Firewalls",
+            "Encryption",
+            "Security guards",
+            "Antivirus software"
+        ],
+        "answer": "Security guards",
+        "explanation": "Physical security controls protect an organization’s hardware and infrastructure. Security guards are one such measure to prevent unauthorized access. Firewalls and antivirus software are technical controls, while encryption is a data protection measure."
+    },
+    {
+        "question": "Which of the following best describes the concept of defense in depth?",
+        "options": [
+            "Using a single security measure to protect assets",
+            "Implementing multiple layers of security controls",
+            "Applying security only at the perimeter of the network",
+            "Relying on user education for security"
+        ],
+        "answer": "Implementing multiple layers of security controls",
+        "explanation": "Defense in depth uses multiple security layers to protect assets, ensuring protection if one layer fails. The other options either rely on a single measure or do not encompass the comprehensive approach of layered security."
+    },
+    {
+        "question": "What is the main goal of business continuity planning?",
+        "options": [
+            "To restore normal operations after a disaster",
+            "To identify potential threats to the organization",
+            "To develop incident response procedures",
+            "To ensure the continuous availability of critical business functions"
+        ],
+        "answer": "To ensure the continuous availability of critical business functions",
+        "explanation": "Business continuity planning focuses on maintaining essential functions during and after a disaster, minimizing disruptions and ensuring operation. The other options are important aspects of the overall process but do not capture the primary goal."
+    },
+    {
+        "question": "Which phase of the disaster recovery plan involves the restoration of normal operations?",
+        "options": [
+            "Response",
+            "Recovery",
+            "Mitigation",
+            "Business Impact Analysis (BIA)"
+        ],
+        "answer": "Recovery",
+        "explanation": "The recovery phase of the disaster recovery plan involves actions taken to restore normal business operations after the immediate effects of a disaster have been managed. The response phase deals with immediate actions, mitigation focuses on reducing risks, and BIA is a planning tool."
+    },
+    {
+        "question": "What is the purpose of conducting a Business Impact Analysis (BIA)?",
+        "options": [
+            "To assess the security posture of an organization",
+            "To determine the impact of disruptions on business operations",
+            "To identify potential security threats",
+            "To develop security policies"
+        ],
+        "answer": "To determine the impact of disruptions on business operations",
+        "explanation": "A Business Impact Analysis (BIA) helps identify critical business functions and the impact that disruptions could have on these functions. It aids in prioritizing recovery efforts and resources. The other options are related but do not specifically address the BIA's primary purpose of assessing business operations."
+    },
+    {
+        "question": "Which of the following is a primary component of an incident response plan?",
+        "options": [
+            "Risk assessment",
+            "Communication procedures",
+            "Security policy development",
+            "Physical security measures"
+        ],
+        "answer": "Communication procedures",
+        "explanation": "Incident response plans include communication procedures to ensure prompt and accurate information dissemination to relevant stakeholders during and after an incident. While risk assessment and security policy development are important, they are not primary components of an incident response plan."
+    },
+    {
+        "question": "What is the main purpose of disaster recovery testing?",
+        "options": [
+            "To ensure compliance with regulations",
+            "To validate the effectiveness of the disaster recovery plan",
+            "To train employees on security policies",
+            "To identify potential threats to the organization"
+        ],
+        "answer": "To validate the effectiveness of the disaster recovery plan",
+        "explanation": "Disaster recovery testing is conducted to verify that the disaster recovery plan works as intended and can restore critical functions and data within the required timeframes. The other options are important but do not specifically address the purpose of testing the recovery plan."
+    },
+    {
+        "question": "Which access control model is based on the classification of information and clearance levels of users?",
+        "options": [
+            "Role-Based Access Control (RBAC)",
+            "Discretionary Access Control (DAC)",
+            "Mandatory Access Control (MAC)",
+            "Attribute-Based Access Control (ABAC)"
+        ],
+        "answer": "Mandatory Access Control (MAC)",
+        "explanation": "Mandatory Access Control (MAC) is an access control model where access rights are assigned based on the classification of information and the clearance level of the user. It is commonly used in environments requiring high security, such as military and government systems. The other models provide different levels of flexibility and user control."
+    },
+    {
+        "question": "What is the primary purpose of the principle of separation of duties?",
+        "options": [
+            "To reduce the risk of errors and fraud",
+            "To enforce strong password policies",
+            "To limit access to sensitive information",
+            "To ensure data availability"
+        ],
+        "answer": "To reduce the risk of errors and fraud",
+        "explanation": "Separation of duties divides responsibilities among multiple people to prevent fraud and errors by ensuring that no single individual has control over all aspects of any critical function. The other options are important but do not capture the primary goal of this principle."
+    },
+    {
+        "question": "Which access control model permits data owners to decide who can access their resources?",
+        "options": [
+            "Role-Based Access Control (RBAC)",
+            "Discretionary Access Control (DAC)",
+            "Mandatory Access Control (MAC)",
+            "Attribute-Based Access Control (ABAC)"
+        ],
+        "answer": "Discretionary Access Control (DAC)",
+        "explanation": "In Discretionary Access Control (DAC), the data owners have the discretion to assign access permissions to their resources. This model provides flexibility but also requires careful management to prevent unauthorized access. The other models have more rigid structures for access control."
+    },
+    {
+        "question": "What is an example of preventive access control?",
+        "options": [
+            "Audit logs",
+            "Security training",
+            "Intrusion detection systems",
+            "Firewalls"
+        ],
+        "answer": "Firewalls",
+        "explanation": "Preventive access controls are measures designed to prevent security incidents from occurring. Firewalls are an example of preventive controls as they block unauthorized access to networks. The other options are either detective or administrative controls."
+    },
+    {
+        "question": "Which of the following best describes the concept of least privilege?",
+        "options": [
+            "Providing users with minimal access rights",
+            "Allowing temporary access to resources",
+            "Rotating user roles periodically",
+            "Implementing strong authentication mechanisms"
+        ],
+        "answer": "Providing users with minimal access rights",
+        "explanation": "Least privilege grants users minimal access needed for their jobs, reducing risks of unauthorized access and resource misuse. The other options do not focus on minimizing access rights."
+    },
+    {
+        "question": "What is the main advantage of using Single Sign-On (SSO)?",
+        "options": [
+            "It requires multiple passwords for increased security",
+            "It simplifies user authentication by allowing access to multiple applications with one set of credentials",
+            "It provides a higher level of encryption for data",
+            "It ensures that users have minimal access rights"
+        ],
+        "answer": "It simplifies user authentication by allowing access to multiple applications with one set of credentials",
+        "explanation": "Single Sign-On (SSO) allows users to log in once and access multiple systems, enhancing convenience and simplifying password management. The other options either misrepresent SSO's purpose or focus on aspects that are not its primary advantage."
+    },
+    {
+        "question": "Which device is primarily used to filter and monitor network traffic, both incoming and outgoing, according to predefined security rules?",
+        "options": [
+            "Router",
+            "Switch",
+            "Firewall",
+            "Hub"
+        ],
+        "answer": "Firewall",
+        "explanation": "A firewall filters and monitors traffic between different parts of a network based on an organization’s previously established security policies. Routers direct traffic, switches connect devices within a network, and hubs are basic devices that do not filter traffic."
+    },
+    {
+        "question": "What is the primary function of a Virtual Private Network (VPN)?",
+        "options": [
+            "To increase internet speed",
+            "To provide secure remote access to a network",
+            "To monitor network traffic",
+            "To detect malware"
+        ],
+        "answer": "To provide secure remote access to a network",
+        "explanation": "A VPN provides a secure, encrypted connection over the internet, enabling remote users to safely access the organization’s network. The other options do not accurately describe the primary function of a VPN."
+    },
+    {
+        "question": "Which of the following is a common method for preventing DDoS attacks?",
+        "options": [
+            "Implementing strong passwords",
+            "Using intrusion detection systems (IDS)",
+            "Employing network firewalls",
+            "Deploying rate limiting and traffic analysis"
+        ],
+        "answer": "Deploying rate limiting and traffic analysis",
+        "explanation": "Rate limiting and traffic analysis help to identify and mitigate DDoS attacks by controlling network traffic and detecting unusual patterns. The other options are important security measures but do not specifically address DDoS prevention."
+    },
+    {
+        "question": "What type of attack involves intercepting and possibly modifying communication between two parties without their awareness?",
+        "options": [
+            "Phishing",
+            "Man-in-the-Middle (MitM)",
+            "Denial of Service (DoS)",
+            "SQL Injection"
+        ],
+        "answer": "Man-in-the-Middle (MitM)",
+        "explanation": "A MitM attack occurs when an attacker intercepts and can modify communication between two parties, compromising data confidentiality and integrity without their knowledge. The other options describe different types of attacks that do not involve interception of communication."
+    },
+    {
+        "question": "What security measure is used to detect and prevent unauthorized access to a private network?",
+        "options": [
+            "Antivirus software",
+            "Network Intrusion Detection System (NIDS)",
+            "Web proxy",
+            "Data Loss Prevention (DLP) software"
+        ],
+        "answer": "Network Intrusion Detection System (NIDS)",
+        "explanation": "A NIDS monitors network traffic for suspicious activity and threats, providing alerts to administrators about possible security breaches. The other options serve different purposes in security management."
+    },
+    {
+        "question": "What is the primary goal of security operations within an organization?",
+        "options": [
+            "To ensure compliance with legal requirements",
+            "To detect, respond to, and recover from security incidents",
+            "To develop security policies",
+            "To conduct security training for employees"
+        ],
+        "answer": "To detect, respond to, and recover from security incidents",
+        "explanation": "The primary goal of security operations is to manage and monitor systems and responses, protect organizational assets from threats, and effectively handle incidents. The other options are important but do not encompass the full scope of security operations."
+    },
+    {
+        "question": "Which of the following is a key activity in security operations to maintain the integrity of systems?",
+        "options": [
+            "Implementing access controls",
+            "Performing regular backups",
+            "Conducting security audits",
+            "Monitoring network traffic"
+        ],
+        "answer": "Conducting security audits",
+        "explanation": "Security audits review and evaluate security measures and practices to ensure effectiveness and compliance with policies and regulations. The other options are also important activities but do not specifically focus on maintaining system integrity."
+    },
+    {
+        "question": "What type of system is designed to automatically detect and respond to potential security threats?",
+        "options": [
+            "Antivirus software",
+            "Security Information and Event Management (SIEM) system",
+            "Data Loss Prevention (DLP) system",
+            "Public Key Infrastructure (PKI)"
+        ],
+        "answer": "Security Information and Event Management (SIEM) system",
+        "explanation": "A SIEM system aggregates and analyzes security data from various sources in real-time, providing automated detection and response to potential security threats. The other options serve different functions: antivirus software focuses on malware detection, DLP systems prevent data loss, and PKI is used for managing digital certificates."
+    },
+    {
+        "question": "Which of the following best describes a security incident?",
+        "options": [
+            "An attempt to compromise system security",
+            "A successful breach of a network",
+            "Any event that threatens the security of an information system",
+            "A report of a phishing email"
+        ],
+        "answer": "Any event that threatens the security of an information system",
+        "explanation": "A security incident refers to any event that poses a threat to the integrity, confidentiality, or availability of an information system, requiring appropriate response measures. The other options describe specific types of incidents but do not encompass the broader definition."
+    },
+    {
+        "question": "What is the purpose of a Security Operations Center (SOC)?",
+        "options": [
+            "To provide end-user technical support",
+            "To manage and monitor security threats and incidents",
+            "To develop security policies",
+            "To conduct security training for employees"
+        ],
+        "answer": "To manage and monitor security threats and incidents",
+        "explanation": "A Security Operations Center (SOC) is a centralized team that handles security issues, monitoring, detecting, and addressing incidents to ensure continuous protection of information assets. The other options describe functions that are not the primary focus of a SOC."
+    },
+    {
+        "question": "Which process involves identifying, assessing, and mitigating risks to an organization’s information systems?",
+        "options": [
+            "Vulnerability scanning",
+            "Incident response",
+            "Risk management",
+            "Penetration testing"
+        ],
+        "answer": "Risk management",
+        "explanation": "Risk management involves identifying potential risks to an organization’s information systems, assessing their likelihood and impact, and implementing security measures to mitigate or manage those risks effectively. The other options are specific security practices that do not encompass the overall process of risk management."
     }
-
 ]
