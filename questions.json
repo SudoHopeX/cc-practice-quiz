@@ -1672,5 +1672,137 @@
         ],
         "answer": "Ransomware Attack",
         "explanation": "A ransomware attack is a type of malicious software that encrypts an organization's data, rendering it inaccessible until a ransom is paid to the attacker. This attack specifically targets data and demands payment for decryption. A DOS (Denial of Service) attack aims to make a service unavailable, a sniffing attack involves capturing network traffic to gather information, and a monitoring attack typically refers to unauthorized surveillance of communications, none of which involve the encryption of data for ransom."
+    },
+    {
+        "question": "What type of cryptosystem is Raju using whereby data being encrypted by the sender using the recipient's public key, and the data then being decrypted using the recipient's private key?",
+        "options": [
+            "With public-key encryption, or symmetric encryption",
+            "With public-key encryption, or asymmetric encryption",
+            "With shared-key encryption, or symmetric encryption",
+            "With shared-key encryption, or asymmetric encryption"
+        ],
+        "answer": "With public-key encryption, or asymmetric encryption",
+        "explanation": "Public-key encryption, also known as asymmetric encryption, uses a pair of keys: a public key for encryption and a private key for decryption. This method allows secure communication without needing to share a secret key. The other options incorrectly refer to symmetric encryption, which uses the same key for both encryption and decryption."
+    },
+    {
+        "question": "Which of the following is a Major problem with symmetric key encryption?",
+        "options": [
+            "It is slower than asymmetric key encryption.",
+            "Algorithms are kept the proprietary standard",
+            "Secure sharing of the secret key.",
+            "Work factor is not mapped with key size."
+        ],
+        "answer": "Secure sharing of the secret key.",
+        "explanation": "The major problem with symmetric key encryption is the challenge of securely sharing the secret key between parties. If the key is intercepted, the security of the communication is compromised. The other options do not accurately represent the primary issues associated with symmetric encryption."
+    },
+    {
+        "question": "Which key is used to create a digital signature?",
+        "options": [
+            "The receiver's private key",
+            "The sender's public key",
+            "The sender's private key",
+            "The receiver's public key"
+        ],
+        "answer": "The sender's private key",
+        "explanation": "A digital signature is created using the sender's private key, which ensures that only the sender can generate the signature. This allows the recipient to verify the signature using the sender's public key. The other options are incorrect as they do not align with the principles of digital signatures."
+    },
+    {
+        "question": "Prabh is sending Rakesh an encrypted message using a symmetric encryption algorithm. What key should he use to encrypt the message?",
+        "options": [
+            "Prabh public key",
+            "Prabh private key",
+            "Rakesh public key",
+            "Shared secret key"
+        ],
+        "answer": "Shared secret key",
+        "explanation": "In symmetric encryption, both parties use the same shared secret key for both encryption and decryption. The other options are incorrect because they refer to asymmetric encryption keys, which are not applicable in this context."
+    },
+    {
+        "question": "Which of the following is considered to be a more secure hashing algorithm?",
+        "options": [
+            "MD 5",
+            "SHA",
+            "AES",
+            "RSA"
+        ],
+        "answer": "SHA",
+        "explanation": "SHA (Secure Hash Algorithm) is considered more secure than MD5, which has known vulnerabilities. AES and RSA are encryption algorithms, not hashing algorithms, making them irrelevant to the question."
+    },
+    {
+        "question": "From an information security perspective, information that no longer supports the main purpose of the business should be?",
+        "options": [
+            "Protect under the Risk Assessment",
+            "Review under the retention policy.",
+            "Review under access policy",
+            "Review under classification policy"
+        ],
+        "answer": "Review under the retention policy.",
+        "explanation": "Information that is no longer needed should be reviewed under the retention policy to determine if it should be retained or disposed of. The other options do not specifically address the need to manage information that is no longer relevant to business operations."
+    },
+    {
+        "question": "Making an organizational culture that prioritizes information security starts with:",
+        "options": [
+            "Implement stronger controls.",
+            "Conduct periodic awareness training.",
+            "Actively monitor operations.",
+            "Gain the endorsement of executive management"
+        ],
+        "answer": "Gain the endorsement of executive management",
+        "explanation": "Gaining the endorsement of executive management is crucial for establishing a culture of information security, as it ensures that security initiatives receive the necessary support and resources. The other options are important but are secondary to securing executive buy-in."
+    },
+    {
+        "question": "Which of the following is the MOST effective way to mitigate Phishing attack in Enterprise?",
+        "options": [
+            "Installing AV",
+            "Installing MFA",
+            "Improve User Awareness",
+            "Encryption"
+        ],
+        "answer": "Improve User Awareness",
+        "explanation": "Improving user awareness is the most effective way to mitigate phishing attacks, as it empowers employees to recognize and avoid phishing attempts. While MFA and antivirus software can help, they are not as effective as educating users about the risks and signs of phishing."
+    },
+    {
+        "question": "Which of the following is MOST effective at preventing the introduction of code modifications that could compromise the security of a mission-critical business application?",
+        "options": [
+            "Change management",
+            "Patch Management",
+            "Incident Management",
+            "Release Management"
+        ],
+        "answer": "Change management",
+        "explanation": "Change management processes are designed to control and document changes to systems and applications, ensuring that any modifications are reviewed and approved to prevent unauthorized changes. The other options focus on different aspects of security and maintenance but do not specifically address the prevention of unauthorized code modifications."
+    },
+    {
+        "question": "Which of the following is the most important to consider while protecting the assets?",
+        "options": [
+            "Value and Risk",
+            "Security and Risk",
+            "Market and Reputation",
+            "Vulnerabilities vs Risk"
+        ],
+        "answer": "Value and Risk",
+        "explanation": "Understanding the value of assets and the associated risks is crucial for effective protection strategies. This helps prioritize security efforts based on the potential impact of loss or compromise. The other options are important but do not directly address the fundamental relationship between asset value and risk."
+    },
+    {
+        "question": "Which of the following is the MOST critical for Patch Management, Configuration Management, Risk Management with overall security posture for an enterprise?",
+        "options": [
+            "Inventories",
+            "Incident Management",
+            "Identity and Access",
+            "Strong Authentication"
+        ],
+        "answer": "Inventories",
+        "explanation": "Maintaining accurate inventories of assets is critical for effective patch management, configuration management, and risk management. Without a clear understanding of what assets exist, it is impossible to manage them effectively. The other options are important components of security but rely on having a comprehensive inventory."
+    },
+    {
+        "question": "What is the MOST effective practice by which we maintain system integrity throughout the organization in a dynamic environment?",
+        "options": [
+            "Change management",
+            "Incident management",
+            "Patch management",
+            "Release Management"
+        ],
+        "answer": "Change management",
+        "explanation": "Change management is essential for maintaining system integrity as it ensures that all changes are systematically planned, reviewed, and documented. This helps prevent unauthorized changes that could compromise system integrity. The other options are important for specific aspects of system management but do not provide the overarching control that change management does."
     }
 ]
