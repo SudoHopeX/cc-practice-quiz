@@ -1,5 +1,5 @@
 [
-   {
+   { 
        "question": "Which statement accurately describes the proper sequence of ISC2 phases in the data cycle process?",
        "options": [
            "Store, Create, Use, Share, Archive, and Destroy",
@@ -8,7 +8,7 @@
            "Create, Store, Use, Share, Archive, and Destroy"
        ],
        "answer": "Create, Store, Use, Share, Archive, and Destroy",
-       "explanation": "explanation"
+       "explanation": "The correct sequence of the ISC2 phases in the data cycle process begins with 'Create,' where data is generated or collected. This is followed by 'Store,' where the data is saved for future use. Next is 'Use,' where the data is actively utilized for its intended purpose. After that, 'Share' allows for the distribution of data to authorized users. 'Archive' involves moving data that is no longer actively used to a secure storage location for long-term retention. Finally, 'Destroy' refers to the secure deletion of data that is no longer needed. The other options misplace these phases, disrupting the logical flow of data management."
    },
    {
        "question": "Which of the following is an appropriate risk response when the identified risk exceeds the org risk tolerance?",
@@ -19,7 +19,7 @@
            "Risk Avoidance"
        ],
        "answer": "Risk Avoidance",
-       "explanation": "explanation"
+       "explanation": "Risk avoidance is the most appropriate response when the identified risk exceeds the organization's risk tolerance. This strategy involves eliminating the risk entirely by changing plans or processes to avoid the risk altogether. For example, if a project poses too high a risk, the organization may choose not to pursue it. The other options—risk mitigation (reducing the impact or likelihood of the risk), risk acceptance (acknowledging the risk without taking action), and risk transfer (shifting the risk to another party, such as through insurance)—are more suitable for situations where the risk is within acceptable limits or can be managed, but not when it exceeds the organization's risk tolerance."
    },
    {
        "question": "Which of the following is an appropriate risk response when the identified risk falls within the org risk tolerance?",
@@ -30,7 +30,7 @@
            "Risk Avoidance"
        ],
        "answer": "Risk Acceptance",
-       "explanation": "explanation"
+       "explanation": "Risk acceptance is the appropriate response when the identified risk falls within the organization's risk tolerance. This means that the organization acknowledges the risk and decides to proceed without taking any specific action to mitigate it, as the potential impact is deemed manageable. This approach is often taken when the cost of mitigating the risk is higher than the potential loss. The other options—risk mitigation (reducing the risk), risk transfer (shifting the risk to another party), and risk avoidance (eliminating the risk altogether)—are more suitable for situations where the risk exceeds the organization's risk tolerance or requires proactive management."
    },
    {
        "question": "Which of the following is an appropriate risk response that includes taking actions to prevent or reduce the possibility of Impact?",
@@ -41,7 +41,8 @@
            "Risk Avoidance"
        ],
        "answer": "Risk Mitigation",
-       "explanation": "explanation"
+       "explanation": "Risk mitigation is the appropriate response that involves taking proactive steps to prevent or reduce the likelihood and impact of a risk. This can include implementing security controls, developing contingency plans, or enhancing processes to minimize potential threats. The goal of risk mitigation is to lower the risk to an acceptable level. The other options—risk acceptance (acknowledging the risk without action), risk transfer (shifting the risk to another party), and risk avoidance (eliminating the risk entirely)—do not focus on actively reducing the risk's likelihood or impact."
+
    },
    {
        "question": "Which of the following is an appropriate risk response practice of passing the risk to another party, who will accept the financial impact of the harm?",
@@ -52,10 +53,10 @@
            "Risk Avoidance"
        ],
        "answer": "Risk Transfer",
-       "explanation": "explanation"
+       "explanation": "Risk transfer is the practice of passing the financial burden of a risk to another party, typically through contracts or insurance. This means that if the risk materializes, the other party will bear the financial consequences. The other options—risk mitigation (reducing the risk), risk acceptance (acknowledging the risk without action), and risk avoidance (eliminating the risk)—do not involve transferring the risk to another entity."
    },
    {
-       "question": "What is the primary objective of Risk Assessment [IR, AR, Eval]?",
+       "question": "What is the primary objective of Risk Assessment[IR, AR, Eval]?",
        "options": [
            "Prioritize by risk level & used to inform risk response decision",
            "Identify threat events that could be produced by those sources",
@@ -63,7 +64,7 @@
            "Mitigate the risk"
        ],
        "answer": "Prioritize by risk level & used to inform risk response decision",
-       "explanation": "explanation"
+       "explanation": "The primary objective of risk assessment is to prioritize risks based on their level of impact and likelihood, which helps inform the organization's risk response decisions. By understanding which risks are most critical, organizations can allocate resources effectively to address them. The other options, while important aspects of risk management, do not capture the primary goal of risk assessment itself."
    },
    {
        "question": "Which of the following options doesn't represent a type of control?",
@@ -74,18 +75,18 @@
            "Preventative Control"
        ],
        "answer": "Preventative Control",
-       "explanation": "explanation"
+       "explanation": "While 'Preventative Control' describes a function of controls aimed at preventing risks, it is not a recognized category of control like Physical, Technical, or Administrative controls. Physical controls involve tangible measures (like locks), technical controls involve technology (like firewalls), and administrative controls involve policies and procedures. Therefore, 'Preventative Control' is more of a descriptor of what controls do rather than a distinct type of control."
    },
    {
        "question": "Which of the following is not one of the canon?",
        "options": [
            "Protect society, the common good, necessary public trust & confidence, and the infrastructures.",
-           "Act honorably, honesty, justly, responsibly & legally",
+           "Act honorably, honestly, justly, responsibly & legally",
            "Provide diligent & competent service to principals.",
            "Requires that we adhere, and be seem to adhere, to the highest ethical standards of behavior"
        ],
        "answer": "Requires that we adhere, and be seem to adhere, to the highest ethical standards of behavior",
-       "explanation": "explanation"
+       "explanation": "The statement 'Requires that we adhere, and be seem to adhere, to the highest ethical standards of behavior' is not one of the recognized canons in professional ethics. The canons typically focus on specific principles such as protecting the public good, acting honorably, and providing competent service. While ethical behavior is important, this statement is 'Preamble' rather than a specific canon."
    },
    {
        "question": "What factors need to be considered most when deciding to implement a control?",
@@ -96,7 +97,7 @@
            "Cost benefit analysis"
        ],
        "answer": "Control cost vs Impact",
-       "explanation": "explanation"
+       "explanation": "When deciding to implement a control, the most critical factors to consider are the cost of the control versus its potential impact on risk reduction. This helps ensure that resources are allocated effectively and that the benefits of the control justify its costs. While cost-benefit analysis is also important, it is a broader concept that encompasses various factors, including cost vs. impact."
    },
       {
           "question": "Which type of control is introduced in an org to direct an employee's behavior?",
@@ -107,7 +108,7 @@
               "Preventative Controls"
           ],
           "answer": "Administrative Controls",
-       "explanation": "explanation"
+       "explanation": "Administrative controls are policies and procedures implemented within an organization to guide and direct employee behavior. These controls include training, guidelines, and rules that help ensure compliance with organizational standards. Physical controls involve tangible security measures, technical controls involve technology-based solutions, and preventative controls focus on preventing risks rather than directing behavior."
       },
       {
           "question": "What is the primary purpose of a Business Continuity plan in the enterprise?",
@@ -118,7 +119,7 @@
               "Provides procedures for relocating info sys operations to an alternate location."
           ],
           "answer": "Provides procedures for sustaining mission/business operations while recovering from a significant disruption.",
-       "explanation": "explanation"
+       "explanation": "The primary purpose of a Business Continuity Plan (BCP) is to ensure that an organization can continue its essential functions during and after a significant disruption. This includes maintaining operations, protecting assets, and ensuring the safety of personnel. While the other options are important aspects of overall risk management and response, they do not capture the core objective of a BCP."
       },
       {
           "question": "In a scenario where multiple documents are being reviewed (an Audit), which one of them is not mandatory for inclusion?",
@@ -129,7 +130,7 @@
               "Guideline"
           ],
           "answer": "Guideline",
-       "explanation": "explanation"
+       "explanation": "In an audit scenario, policies, procedures, and standards are typically mandatory documents that outline the organization's requirements and expectations. Guidelines, on the other hand, are recommendations that provide additional context or advice but are not mandatory for compliance. Therefore, while guidelines can be useful, they are not essential for inclusion in an audit."
       },
       {
           "question": "Proper documentation of evidence is important to support any future investigations or legal proceedings. In which stage of the incident management process must we acquire, preserve, secure, and document evidence?",
@@ -140,7 +141,7 @@
               "Post-Incident Activity"
           ],
           "answer": "Containment, Eradication, and Recovery",
-       "explanation": "explanation"
+       "explanation": "During the 'Containment, Eradication, and Recovery' stage of the incident management process, it is crucial to acquire, preserve, secure, and document evidence related to the incident. This ensures that all relevant information is available for future investigations and legal proceedings. The other stages focus on different aspects of incident management, such as identifying the incident or preparing for potential incidents."
       },
       {
           "question": "In which stage of the incident management process do we determine whether an incident has occurred?",
@@ -151,7 +152,7 @@
               "Post-Incident Activity"
           ],
           "answer": "Detection & Analysis",
-       "explanation": "explanation"
+       "explanation": "The 'Detection & Analysis' stage is where the organization determines whether an incident has occurred. This involves monitoring systems, analyzing alerts, and investigating anomalies to confirm the presence of an incident. The other stages focus on preparation, response, and post-incident review rather than the initial detection and analysis of incidents."
       },
       {
           "question": "Which phase of the incident response process helps us to improve security measures and the incident handling process?",
@@ -162,7 +163,7 @@
               "Post-Incident Activity"
           ],
           "answer": "Post-Incident Activity",
-       "explanation": "explanation"
+       "explanation": "The 'Post-Incident Activity' phase is critical for reviewing and analyzing the incident response process after an incident has been resolved. This phase helps organizations identify lessons learned, improve security measures, and refine the incident handling process for future incidents. The other phases focus on immediate response and detection rather than long-term improvements."
       },
       {
           "question": "Which type of Access Control leaves a certain amount of Access Control to the discretion of the object's owner or anyone else authorized to control the object's access?",
@@ -173,7 +174,7 @@
               "RBAC"
           ],
           "answer": "DAC",
-       "explanation": "explanation"
+       "explanation": "Discretionary Access Control (DAC) allows the owner of an object (such as a file or resource) to determine who has access to it. This means that the owner can grant or revoke access rights at their discretion. In contrast, Mandatory Access Control (MAC) enforces access policies set by a central authority, while Role-Based Access Control (RBAC) assigns access based on user roles, and NDAC is not a standard term in access control."
       },
       {
           "question": "Which type of access control system enforces the system's security policy through the use of security labels?",
@@ -184,7 +185,7 @@
               "RBAC"
           ],
           "answer": "MAC",
-       "explanation": "explanation"
+       "explanation": "Mandatory Access Control (MAC) enforces security policies through the use of security labels assigned to both subjects (users) and objects (resources). Access decisions are made based on these labels, which define the level of access permitted. This is in contrast to Discretionary Access Control (DAC), where access is determined by the owner, and Role-Based Access Control (RBAC), which is based on user roles."
       },
       {
           "question": "Which principle addresses infosec strategy integrating people, tech, and operations capabilities to establish variable barriers across multiple missions of the org?",
@@ -195,7 +196,7 @@
               "Privilege Function"
           ],
           "answer": "Defense in Depth",
-       "explanation": "explanation"
+       "explanation": "The principle of Defense in Depth involves implementing multiple layers of security controls and measures to protect an organization's assets. This strategy integrates people, technology, and operational capabilities to create variable barriers against threats, ensuring that if one layer fails, others remain in place. The other options focus on specific aspects of security but do not encompass the holistic approach of Defense in Depth."
       },
       {
           "question": "Which of the following principles dictates that each task, process, or user is granted the minimum rights required to perform its job?",
@@ -206,7 +207,7 @@
               "Privilege Function"
           ],
           "answer": "Principle of least privilege",
-          "explanation": "explanation"
+          "explanation": "The Principle of Least Privilege dictates that users, processes, and systems should only have the minimum level of access necessary to perform their functions. This reduces the risk of accidental or malicious misuse of privileges. In contrast, Separation of Duties involves dividing responsibilities to prevent fraud or error, while Defense in Depth is a broader security strategy."
       },
       {
           "question": "What protocol must be utilized for remotely managing a firewall?",
@@ -217,7 +218,7 @@
               "HTTP"
           ],
           "answer": "SSH",
-       "explanation": "explanation"
+       "explanation": "SSH (Secure Shell) is the preferred protocol for securely managing a firewall remotely. It provides encrypted communication, ensuring that sensitive data, such as login credentials and configuration commands, are protected from eavesdropping. In contrast, Telnet and HTTP transmit data in plaintext, making them vulnerable to interception, while FTP is primarily used for file transfers and is not suitable for secure management."
       },
       {
           "question": "Which solution monitors the characteristics of a single host and the events occurring within that host for suspicious activity?",
@@ -228,7 +229,7 @@
               "Antivirus"
           ],
           "answer": "HIDS",
-       "explanation": "explanation"
+       "explanation": "HIDS (Host-based Intrusion Detection System) is designed to monitor and analyze the activities and characteristics of a single host for suspicious behavior. It can detect unauthorized access, file changes, and other anomalies specific to that host. NIDS (Network-based Intrusion Detection System) monitors network traffic, while SIEM (Security Information and Event Management) aggregates and analyzes data from multiple sources, and antivirus software focuses on detecting and removing malware."
       },
       {
           "question": "Which monitors network traffic for particular network segments or devices and analyzes the network and application protocol activity to identify suspicious activity?",
@@ -239,7 +240,7 @@
               "Antivirus"
           ],
           "answer": "NIDS",
-       "explanation": "explanation"
+       "explanation": "NIDS (Network-based Intrusion Detection System) monitors network traffic across specific segments or devices, analyzing the data packets and application protocol activity to identify suspicious behavior or potential threats. It is designed to detect intrusions and attacks at the network level. HIDS focuses on individual hosts, while SIEM aggregates data from various sources, and antivirus software targets malware detection."
       },
       {
           "question": "Which of the following solutions is not used to identify threats?",
@@ -250,7 +251,7 @@
               "NIPS"
           ],
           "answer": "NIPS",
-       "explanation": "explanation"
+       "explanation": "NIPS (Network-based Intrusion Prevention System) is primarily designed to actively prevent intrusions by blocking malicious traffic rather than identifying threats. While it can detect threats, its main function is to take action against them. In contrast, IDS (Intrusion Detection System), SIEM (Security Information and Event Management), and NIDS (Network-based Intrusion Detection System) are focused on identifying and analyzing threats."
       },
       {
          "question": "Which cryptography algorithm uses the same secret key for its operation and if applicable for reversing the effects of operation?",
@@ -261,7 +262,7 @@
              "Digital Signature"
          ],
          "answer": "Symmetric",
-       "explanation": "explanation"
+       "explanation": "Symmetric cryptography uses the same secret key for both encryption and decryption processes. This means that the same key is used to encrypt the data and can also be used to reverse the operation, making it essential for both parties to securely share the key. In contrast, asymmetric cryptography uses a pair of keys (public and private), while hash functions and digital signatures serve different purposes in data integrity and authentication."
      },
       {
           "question": "Which process establishes and maintains a framework & supporting management structure and process to provide assurance that infosec strategies are aligned with business objectives, consistent with applicable laws and regulations through adherence to policies and internal controls, and provide assignment of responsibility, all in an effort to manage risk?",
@@ -272,7 +273,7 @@
               "Risk Assessment"
           ],
           "answer": "Security Governance",
-       "explanation": "explanation"
+       "explanation": "Security governance refers to the framework and processes that ensure information security strategies align with business objectives and comply with laws and regulations. It involves establishing policies, assigning responsibilities, and managing risks effectively. While risk management focuses on identifying and mitigating risks, security governance encompasses a broader scope of aligning security with organizational goals."
       },
       {
           "question": "What is the most effective physical control you would like to suggest for a data center to prevent unauthorized access?",
@@ -283,18 +284,18 @@
               "Install Tailgating"
           ],
           "answer": "Mantrap Control configured with biometrics",
-          "explanation": "explanation"
+          "explanation": "A mantrap control configured with biometrics is the most effective physical control for a data center as it provides a secure entry point that requires individuals to authenticate their identity before gaining access. This dual-layered approach prevents unauthorized access and tailgating, ensuring that only authorized personnel can enter the sensitive area."
       },
       {
-          "question": "Prabh is a part of the legal team, they wish to protect the brand name and goodwill of the company. Recently some other company used their brand name to sell products and services in the market. What is the most important action you will recommend to Prabh to take to protect the brand?",
+          "question": "Suman is a part of the legal team, they wish to protect the brand name and goodwill of the company. Recently some other company used their brand name to sell products and services in the market. What is the most important action you will recommend to Prabh to take to protect the brand?",
           "options": [
-              "Filed Patent [protect idea]",
-              "Filed for trademark [protect name & brand]",
-              "Filed for copyright [expression of idea]",
-              "Filed for trade secret [protect competitive advantage]"
+              "Filed Patent",
+              "Filed for trademark",
+              "Filed for copyright",
+              "Filed for trade secret"
           ],
-          "answer": "Filed for trademark [protect name & brand]",
-       "explanation": "Filed Patent [protect idea], Filed for trademark [protect name & brand], Filed for copyright [expression of idea] and Filed for trade secret [protect competitive advantage]"
+          "answer": "Filed for trademark",
+       "explanation": "Filing for a trademark is the most important action to protect the brand name and goodwill of the company. Trademarks safeguard brand names and logos used on goods and services, preventing others from using similar identifiers that could confuse consumers. Patents protect inventions, copyrights protect creative expressions, and trade secrets protect confidential business information, but none of these specifically address brand name protection as effectively as trademarks."
       },
       {
           "question": "Prabh recently joined a security consultant position in a healthcare company in the US. The company collects and processes healthcare data for further analysis. Which of the following primary regulations compliance must they achieve?",
@@ -305,7 +306,7 @@
               "ISO 27001"
           ],
           "answer": "HIPAA",
-          "explanation": "explanation"
+          "explanation": "HIPAA (Health Insurance Portability and Accountability Act) is the primary regulation that healthcare companies in the US must comply with when collecting and processing healthcare data. It establishes standards for protecting sensitive patient information and ensuring privacy. PCI DSS pertains to payment card data, FEDRAMP is for cloud services used by federal agencies, and ISO 27001 is an international standard for information security management systems."
       },
       {
           "question": "Aspirants technology solutions leaders in digital payment services. They have already obtained PCI DSS Certification. By increasing the number of transactions, they moved from on-premises to a cloud provider for IaaS service. In this scenario, who must be taking accountability for PCI DSS accreditation?",
@@ -316,7 +317,7 @@
               "Regulator"
           ],
           "answer": "Cloud Customer",
-          "explanation": "explanation"
+          "explanation": "In this scenario, the cloud customer is accountable for PCI DSS accreditation. While the cloud provider must ensure that their infrastructure is compliant, the responsibility for maintaining compliance with PCI DSS standards lies with the customer, who must ensure that their applications and data handling practices meet the requirements. This shared responsibility model is crucial in cloud environments."
       },
       {
           "question": "Before migrating applications or data to a cloud computing environment, which is the most critical requirement to review?",
@@ -327,18 +328,18 @@
               "Which certification is most appropriate depends to some extent on the category of the cloud service and on the customer's regional and industry requirement"
           ],
           "answer": "Laws or regulations that apply and the relevant duties or obligations imposed on both the customer and provider",
-          "explanation": "explanation"
+          "explanation": "It is crucial to review the laws and regulations that apply to both the customer and the cloud service provider before migrating to a cloud environment. This ensures compliance with legal obligations and helps identify responsibilities related to data protection, privacy, and security. Understanding the shared responsibilities is essential for mitigating risks associated with cloud services."
       },
       {
           "question": "An org needs to implement a security solution that can monitor its environment for signs of malicious activity and report any suspicious activities to admins. Which of the following solutions is best suited for this purpose?",
           "options": [
               "IDS [Intrusion Detection System]",
               "IPS [Intrusion Prevention System]",
-              "Firewall [blocks unauthorized access requests]",
+              "Firewall",
               "DLP [Data Loss Prevention]"
           ],
           "answer": "IDS [Intrusion Detection System]",
-          "explanation": "explanation"
+          "explanation": "An Intrusion Detection System (IDS) is designed to monitor network traffic for signs of malicious activity and alert administrators to potential threats. It analyzes traffic patterns and can identify suspicious activities, making it suitable for the organization's needs. In contrast, an IPS actively blocks threats, while firewalls primarily focus on preventing unauthorized access, and DLP is aimed at preventing data loss."
       },
       {
           "question": "An org is planning to enhance its network security by deploying a firewall. To ensure optimal protection, the firewall should be placed in a strategic location within the network infrastructure. Which of the following is the ideal location for the firewall?",
@@ -349,7 +350,7 @@
               "Within the sender farm to protect critical servers"
           ],
           "answer": "Between the org's routers and the internet",
-          "explanation": "explanation"
+          "explanation": "The ideal location for a firewall is between the organization's routers and the internet. This placement allows the firewall to monitor and control incoming and outgoing traffic, providing a barrier against external threats before they can reach the internal network. Other placements, such as inside the network or on end-user devices, do not provide the same level of protection against external attacks."
       },
       {
           "question": "An org is in the process of establishing a relationship with a new vendor and wants to ensure that the vendor meets specific service quality expectations. These requirements should address any concerns the org has about the quality of service provided by the vendor. Which of the following documents best provides the org's expectations of the vendor during the relationship?",
@@ -360,7 +361,7 @@
               "Data Classification"
           ],
           "answer": "SLA [Service Level Agreement]",
-          "explanation": "explanation"
+          "explanation": "A Service Level Agreement (SLA) outlines the expected level of service between the organization and the vendor, including specific performance metrics, responsibilities, and quality expectations. This document is essential for ensuring that both parties have a clear understanding of the service standards required during the relationship. An MOU is more informal, while policies and data classification do not specifically address service quality."
       },
       {
          "question": "Malicious traffic from an internal network has been detected on an unauthorized port on an application server. Which of the following network-based security controls should the engineer consider implementing?",
@@ -371,7 +372,7 @@
              "MAC filtering"
          ],
          "answer": "ACLs [Access Control Lists on firewall]",
-          "explanation": "explanation"
+          "explanation": "Implementing Access Control Lists (ACLs) on the firewall is an effective way to control and restrict traffic to and from the application server. ACLs can be configured to block unauthorized access attempts and limit traffic to specific ports, thereby enhancing security. HIPS focuses on host-level protection, NAT is used for IP address translation, and MAC filtering is less effective in this context."
      },
      {
          "question": "Which statement is true about a Disaster Recovery (DR) plan?",
@@ -382,7 +383,7 @@
              "Written plan for recovering one or more information systems at an alternate facility in response to a major hardware or software failure or destruction of facilities"
          ],
          "answer": "Documentation of a predetermined set of instructions or procedures that describes how an org's mission/business process will be sustained during & after a significant disruption",
-          "explanation": "explanation"
+          "explanation": "A Disaster Recovery (DR) plan is a documentation of predetermined instructions or procedures that outlines how an organization will sustain its mission and business processes during and after a significant disruption. This includes strategies for maintaining operations, recovering data, and restoring services, ensuring that the organization can continue to function despite adverse events."
      },
      {
          "question": "In an org's security framework, various documents outline policies, procedures, and guidelines. Which of the following documents contains elements that are not mandatory?",
@@ -393,7 +394,7 @@
              "Procedure"
          ],
          "answer": "Guideline",
-          "explanation": "explanation"
+          "explanation": "Guidelines are recommendations that provide guidance on how to achieve certain objectives but are not mandatory. Policies are mandatory rules, standards are specific requirements that must be met, and procedures are step-by-step instructions that must be followed. Therefore, guidelines are the only option that contains non-mandatory elements."
      },
      {
          "question": "Digital signatures are widely used to ensure various security properties in electronic communication and documents. Which of the following properties is not provided by digital signatures?",
@@ -404,7 +405,7 @@
              "Authentication"
          ],
          "answer": "Confidentiality",
-          "explanation": "explanation"
+          "explanation": "Digital signatures provide integrity (ensuring the message has not been altered), non-repudiation (the sender cannot deny sending the message), and authentication (verifying the sender's identity). However, they do not provide confidentiality, which is the protection of information from unauthorized access. Confidentiality is typically achieved through encryption."
      },
      {
          "question": "An org's IT department notices that several critical systems have become inaccessible and are displaying messages demanding a specific action to regain access. The employees are unable to access their files, and the IT staff confirms that the data on these devices is encrypted. Which type of attack is most likely responsible for this situation?",
@@ -415,7 +416,7 @@
              "MitM [Man-in-the-Middle]"
          ],
          "answer": "Ransomware",
-          "explanation": "explanation"
+          "explanation": "Ransomware is a type of malware that encrypts files on a victim's system and demands payment to restore access. The symptoms described—messages demanding action to regain access and encrypted data—are characteristic of a ransomware attack. Phishing is a method to gain access, denial-of-service disrupts service, and MitM involves intercepting communications, none of which fit the scenario."
      },
      {
          "question": "Which of the following is the best metric to measure security awareness training effectiveness in the org?",
@@ -426,7 +427,7 @@
              "Number of password requests"
          ],
          "answer": "Decrease in incident reports",
-          "explanation": "explanation"
+          "explanation": "A decrease in incident reports indicates that employees are applying what they learned in security awareness training, leading to fewer security incidents. An increase in incident reports or violations suggests that training may not be effective, and the number of password requests does not directly measure awareness."
      },
      {
          "question": "What is the primary objective of security awareness training?",
@@ -437,7 +438,7 @@
              "To notify employees of information security responsibilities"
          ],
          "answer": "To notify employees of information security responsibilities",
-          "explanation": "explanation"
+          "explanation": "The primary goal of security awareness training is to ensure that employees understand their responsibilities regarding information security, which helps to create a security-conscious culture. While informing users of attacks and meeting requirements are important, they are secondary to the core objective of fostering responsibility."
      },
      {
          "question": "Which of the following actions would most effectively address the concern by communicating how the org handles personal data?",
@@ -448,7 +449,7 @@
              "Developing a comprehensive privacy policy that outlines the collection, use, and storage practices for location data"
          ],
          "answer": "Developing a comprehensive privacy policy that outlines the collection, use, and storage practices for location data",
-          "explanation": "explanation"
+          "explanation": "A comprehensive privacy policy directly communicates to users how their personal data is handled, which is essential for transparency and trust. While encryption and risk assessments are important for security, they do not communicate data handling practices. Updating terms of service is also helpful but may not be as comprehensive as a dedicated privacy policy."
      },
      {
          "question": "A large university has recently experienced a significant increase in malware infections on student-owned devices connected to the campus network. The university suspects these infections might be originated from unauthorized file-sharing activities. Which policy would most effectively address this issue by outlining acceptable and unacceptable uses of the campus network, including restrictions on file-sharing activities?",
@@ -459,7 +460,7 @@
              "Data Handling Policy"
          ],
          "answer": "Acceptable Use Policy",
-          "explanation": "explanation"
+          "explanation": "An Acceptable Use Policy (AUP) specifically outlines what is considered acceptable and unacceptable behavior when using the campus network, including restrictions on file-sharing activities. The other options do not focus on user behavior regarding network usage."
      },
      {
          "question": "A company is implementing a new security policy that requires all desktops to install specific antivirus software and enable real-time scanning. The IT team is responsible for managing hundreds of desktops across multiple locations. Which of the following functions is most useful in achieving this objective?",
@@ -470,18 +471,18 @@
              "Incident Management"
          ],
          "answer": "Configuration Management",
-          "explanation": "explanation"
+          "explanation": "Configuration Management involves maintaining the settings and configurations of systems, including ensuring that antivirus software is installed and properly configured across all desktops. The other options focus on different aspects of IT management."
      },
      {
       "question": "In a large retail chain company, I am a security analyst responsible for protecting the company's data and systems. Recently, the CEO received an email that appeared to be from the company's legal department, requesting urgent wire transfer information for a critical legal case. The email contained a link to a website that looked almost identical to the company's legal department portal. Which type of phishing attack is most likely being used in this scenario?",
       "options": [
-          "Smishing [text message]",
-          "Whaling [higher management targeting]",
-          "Spear Phishing [targeting company]",
-          "Pharming [redirecting to fake websites that look legitimate]"
+          "Smishing",
+          "Whaling",
+          "Spear Phishing",
+          "Pharming"
       ],
-      "answer": "Whaling [higher management targeting]",
-      "explanation": "Smishing [text message], Whaling [higher management targeting], Spear Phishing [targeting company], Pharming [redirecting to fake websites that look legitimate]"
+      "answer": "Whaling",
+      "explanation": "Whaling is a type of phishing attack that specifically targets high-profile individuals, such as executives, to steal sensitive information. In this case, the attack targets the CEO, making it a whaling attack. Smishing refers to text messages, spear phishing targets specific individuals but is broader, and pharming involves redirecting users to fake sites."
   },
   {
       "question": "According to the OSI model, at which of the following layers is data encapsulated into the packet?",
@@ -492,7 +493,7 @@
           "2nd layer [Data Link]"
       ],
       "answer": "3rd layer [Network]",
-          "explanation": "explanation"
+          "explanation": "In the OSI model, data is encapsulated into packets at the Network layer (Layer 3). The Application layer (Layer 7) deals with user interface and application data, the Transport layer (Layer 4) manages end-to-end communication, and the Data Link layer (Layer 2) handles node-to-node data transfer."
   },
   {
       "question": "According to the OSI model, the layer that ensures that the information it exchanges with its peers is error-free?",
@@ -503,7 +504,7 @@
           "2nd layer [Data Link]"
       ],
       "answer": "4th layer [Transport]",
-          "explanation": "explanation"
+          "explanation": "The Transport layer (Layer 4) is responsible for ensuring error-free communication between devices, including flow control and error detection. The other layers do not focus on error checking in the same way."
   },
   {
       "question": "According to the OSI model, which layer handles data transfer between applications, flow control, and error detection and correction?",
@@ -514,7 +515,7 @@
           "2nd layer [Data Link]"
       ],
       "answer": "4th layer [Transport]",
-          "explanation": "explanation"
+          "explanation": "The Transport layer (Layer 4) is responsible for data transfer between applications, managing flow control, and ensuring error detection and correction. The Application layer (Layer 7) focuses on application-level functions, while the Network (Layer 3) and Data Link (Layer 2) layers handle routing and physical data transfer, respectively."
   },
   {
       "question": "According to the OSI model, the layer that ensures that the information is encrypted and encoded?",
@@ -525,18 +526,18 @@
           "6th layer [Presentation]"
       ],
       "answer": "6th layer [Presentation]",
-      "explanation": "explanation"
+      "explanation": "The Presentation layer (Layer 6) is responsible for translating, encrypting, and compressing data. It ensures that the data is in a usable format for the Application layer. The other layers do not handle encryption and encoding directly."
   },
   {
       "question": "In a network security assessment, we discover that the port number 1123 is frequently utilized for communication between a client application and a server. Which category of port class does port number 1123 belong to?",
       "options": [
-          "Well-known ports [0-1023]",
-          "Registered ports [1024-49151]",
-          "Dynamic Ports [49152-65535]",
-          "Ephemeral Ports [another name for dynamic]"
+          "Well-known ports",
+          "Registered ports",
+          "Dynamic Ports",
+          "Ephemeral Ports"
       ],
-      "answer": "Registered ports [1024-49151]",
-      "explanation": "Well-known ports [0-1023], Registered ports [1024-49151], Dynamic Ports [49152-65535],Ephemeral Ports [another name for dynamic]"
+      "answer": "Registered ports",
+      "explanation": "Port number 1123 falls within the range of Registered ports (1024-49151). Well-known ports are from 0-1023, Dynamic ports are from 49152-65535, and Ephemeral ports are often used interchangeably with dynamic ports but refer specifically to temporary ports assigned for client-side communication."
   },
   {
       "question": "Which layer of the OSI model does DNS, SMTP, and HTTP operate on?",
@@ -547,7 +548,7 @@
           "Transport"
       ],
       "answer": "Application",
-      "explanation": "explanation"
+      "explanation": "DNS (Domain Name System), SMTP (Simple Mail Transfer Protocol), and HTTP (Hypertext Transfer Protocol) all operate at the Application layer (Layer 7) of the OSI model. This layer is responsible for providing network services to end-user applications."
   },
   {
       "question": "You are the network admin responsible for managing the network infrastructure of a large company. Recently, you have been tasked with reviewing and securing the org's network ports to enhance its overall security posture. As part of your assessment, you examine the functions associated with various port numbers. During your analysis, you identify port number 53 being used extensively within your network. Considering this scenario, what is the primary purpose of port 53 in this context?",
@@ -558,7 +559,7 @@
           "Serves as a secure channel for RDP connections [3389]"
       ],
       "answer": "Utilized for DNS resolution and mapping domain names to IP addresses",
-      "explanation": "explanation"
+      "explanation": "Port 53 is primarily used for DNS (Domain Name System) services, which resolve domain names to IP addresses. The other options refer to different protocols and their respective port numbers."
   },
   {
       "question": "A company is experiencing a problem where users trying to access its website are unknowingly redirected to different sites, even though they typed the correct address. Which of the following security measures would be most effective in preventing similar incidents in the future?",
@@ -569,7 +570,7 @@
           "TLS/SSL"
       ],
       "answer": "DNSSEC",
-      "explanation": "explanation"
+      "explanation": "DNSSEC (Domain Name System Security Extensions) is designed to protect against attacks that manipulate DNS responses, such as cache poisoning, which can lead to users being redirected to malicious sites. HTTPS, IPSec, and TLS/SSL focus on securing data in transit but do not specifically address DNS-related vulnerabilities."
   },
   {
       "question": "An information security manager is concerned that connectivity used to configure and troubleshoot critical network services could be attacked. Which of the following would be the best recommendation for the network security engineer to present?",
@@ -580,7 +581,7 @@
           "Use FTP"
       ],
       "answer": "Use SSH",
-      "explanation": "explanation"
+      "explanation": "SSH (Secure Shell) is a secure protocol used for accessing and managing network devices and servers. It provides strong encryption and authentication, making it the best choice for securely configuring and troubleshooting network services. SMTPS, HTTP, and FTP do not provide the same level of security."
   },
   {
    "question": "An org needs to secure data transmission over the internet to prevent manipulation, eavesdropping, and Man-in-the-Middle attacks. Which protocol should you implement to achieve this level of security?",
@@ -591,7 +592,7 @@
        "IMAP"
    ],
    "answer": "SSL/TLS",
-   "explanation": "explanation"
+   "explanation": "SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) are protocols designed to provide secure communication over a computer network. They encrypt the data being transmitted, which helps prevent eavesdropping, manipulation, and Man-in-the-Middle attacks. FTP (File Transfer Protocol) and SMTP (Simple Mail Transfer Protocol) do not provide encryption by default, and IMAP (Internet Message Access Protocol) is primarily used for email retrieval."
 },
 {
    "question": "Your org has identified a vulnerability where attackers are able to use precomputed hash tables (rainbow tables) to crack hashed passwords. Which technique should you implement to mitigate this problem by ensuring that even identical passwords don't produce the same hash?",
@@ -602,7 +603,7 @@
        "Applying strong hashing algorithms such as SHA, MD5"
    ],
    "answer": "Salting the passwords before hashing",
-   "explanation": "explanation"
+   "explanation": "Salting involves adding a unique, random value (the salt) to each password before hashing it. This ensures that even if two users have the same password, their hashes will be different, making it much more difficult for attackers to use rainbow tables to crack the passwords. While using strong hashing algorithms is important, salting is specifically designed to address the vulnerability of identical passwords producing the same hash."
 },
 {
    "question": "As a security practitioner, you are tasked with enhancing the security posture of an enterprise network. One of the proposed solutions is network segmentation. Under which of the following conditions would network segmentation be primarily used to improve the security and performance of the network?",
@@ -613,7 +614,7 @@
        "To control and manage traffic more effectively thus improving network performance and reducing congestion in certain network segments"
    ],
    "answer": "To isolate sensitive data and critical systems from the rest of the network, thereby limiting access and reducing the potential impact of a security breach",
-    "explanation": "explanation"
+    "explanation": "Network segmentation is primarily used to isolate sensitive data and critical systems, which enhances security by limiting access to those systems and reducing the potential impact of a security breach. While it can also help with traffic management and performance, the main security benefit is the isolation of sensitive resources."
 },
 {
    "question": "Which protocol is primarily used by the ping utility to test the network connection between computers by sending echo request messages and receiving echo reply messages?",
@@ -624,8 +625,8 @@
        "DNS"
    ],
    "answer": "ICMP",
-   "explanation": "explanation"
-},
+   "explanation": "ICMP (Internet Control Message Protocol) is the protocol used by the ping utility to send echo request messages and receive echo reply messages. It is used for network diagnostics and troubleshooting. HTTP (Hypertext Transfer Protocol) is used for web traffic, TCP (Transmission Control Protocol) is a transport layer protocol, and DNS (Domain Name System) is used for resolving domain names to IP addresses."
+}, 
 {
     "question": "Which of the following is a key benefit of implementing a Zero Trust security model in an organization?",
     "options": [
@@ -778,7 +779,7 @@
             "Generic control"
         ],
         "answer": "Technical control",
-        "explanation": "Firewalls, electronic badge readers, and access control lists are all examples of technical controls. These controls use technology to enforce security policies and protect information systems. However, it's worth noting that electronic badge readers can also be considered a form of physical control since they are used to restrict physical access to facilities. But in the context of the options provided, the most appropriate classification for firewalls and access control lists is as technical controls. Wbereas other options, b) Administrative control: refers to policies and procedures that govern security practices, c) Physical control: involves measures taken to protect physical assets and facilities, d) Generic control: is not a standard classification in security controls"
+        "explanation": "Firewalls, electronic badge readers, and access control lists are all examples of technical controls. These controls use technology to enforce security policies and protect information systems. However, it's worth noting that electronic badge readers can also be considered a form of physical control since they are used to restrict physical access to facilities. But in the context of the options provided, the most appropriate classification for firewalls and access control lists is as technical controls. b) Administrative control: refers to policies and procedures that govern security practices. c) Physical control: involves measures taken to protect physical assets and facilities. d) Generic control: is not a standard classification in security controls"
     },
     {
         "question": "Which controls implemented through a tangible mechanism such as walls, fences, guards, locks?",
@@ -1066,7 +1067,7 @@
         "answer": "BIA",
         "explanation": "The Business Impact Analysis (BIA) is the first source for determining resiliency and contingency planning strategies. The BIA helps organizations identify and evaluate the potential effects of disruptions on their operations. It assesses the criticality of business functions, the impact of downtime, and the resources required for recovery. By understanding which processes are essential and the consequences of their disruption, organizations can develop effective contingency planning strategies and resilience measures. The insights gained from the BIA inform the development of recovery strategies and the overall Business Continuity Plan (BCP)."
     },
-{
+    {
         "question": "Which access control model have very limited user functionality, requires a lot of administrative overhead, are extremely expensive, and are not user friendly?",
         "options": [
             "MAC",
@@ -1168,7 +1169,6 @@
     {
         "question": "Which of the following is not an example of Administrative Control?",
         "options": [
-            "Policy and procedures",
             "Personnel controls",
             "Acceptable Use Policy",
             "Security-awareness training",
@@ -1180,7 +1180,6 @@
     {
         "question": "Which of the following is not an example of Physical Control?",
         "options": [
-            "Security Camera",
             "Physical Cabling",
             "Badge Reader",
             "Appointment of Guard",
@@ -1248,9 +1247,9 @@
         "question": "Which of the following is the least secure authentication method that sends the credentials in cleartext?",
         "options": [
             "PAP (Password Authentication Protocol)",
-            "CHAP",
+            "CHAP (Challenge-Handshake Authentication Protocol)",
             "EAP (Extensible Authentication Protocol)",
-            "RADIUS"
+            "RADIUS (Remote Authentication Dial-In User Service)"
         ],
         "answer": "PAP (Password Authentication Protocol)",
         "explanation": "PAP is considered the least secure authentication method because it transmits passwords in cleartext, making them vulnerable to interception. CHAP uses a challenge-response mechanism to enhance security, while EAP and RADIUS provide more robust authentication methods that do not send credentials in cleartext."
@@ -1264,15 +1263,15 @@
             "Encrypted Password"
         ],
         "answer": "NONCE",
-        "explanation": "CHAP uses a nonce (a number used once) in its challenge-response mechanism to ensure that each authentication session is unique, which helps prevent replay attacks and man-in-the-middle attacks. The other options do not specifically address the unique challenge-response mechanism that CHAP employs."
+        "explanation": "CHAP(Challenge-Handshake Authentication Protocol) uses a nonce (a number used once) in its challenge-response mechanism to ensure that each authentication session is unique, which helps prevent replay attacks and man-in-the-middle attacks. The other options do not specifically address the unique challenge-response mechanism that CHAP employs."
     },
     {
         "question": "A device operating at Layer 3 of the OSI model uses which of the following protocols to determine the path to a different network?",
         "options": [
-            "TCP",
-            "SIP",
+            "TCP (Transmission Control Protocol)",
+            "SIP (Session Initiation Protocol)",
             "RIP (Routing Information Protocol)",
-            "HTTP"
+            "HTTP (Hyper Text Transfer Protocol)"
         ],
         "answer": "RIP (Routing Information Protocol)",
         "explanation": "RIP is a routing protocol used at Layer 3 (Network layer) of the OSI model to determine the best path for data packets to travel across networks. TCP operates at Layer 4 (Transport layer), SIP is used for signaling in multimedia communication, and HTTP operates at Layer 7 (Application layer)."
@@ -1288,7 +1287,7 @@
         "answer": "Transport layer",
         "explanation": "The Transport layer is responsible for ensuring reliable data transfer between applications, including flow control and error detection and correction. The Application layer provides services directly to user applications, the Data Link layer manages node-to-node data transfer, and the Network layer handles routing and forwarding of packets."
     },
-{
+    {
         "question": "Which of the following best describes the principle of least privilege?",
         "options": [
             "Ensuring that users have access to all resources",
@@ -1585,7 +1584,7 @@
         "answer": "Risk management",
         "explanation": "Risk management involves identifying potential risks to an organization’s information systems, assessing their likelihood and impact, and implementing security measures to mitigate or manage those risks effectively. The other options are specific security practices that do not encompass the overall process of risk management."
     },
-{
+    {
         "question": "Which of the following is a true statement of Software as a Service (SaaS)?",
         "options": [
             "Capability for Customers to use the Provider's applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
