@@ -21,7 +21,6 @@
             <h2 style="text-align: center; color:rgb(21, 34, 213);">Kindly Enter Your Details✍️</h2>
             <input type="text" id="username" placeholder="Enter your name e.g. Krishna" required>
             <input type="number" id="num-questions" min="1" max="164" placeholder="No. of questions to attempt e.g. 11, Max=164" required>
-            <div id="error-message" style="color: red;"></div>
             <br>
             <button id="start-btn" class="start-quiz-btn">Start Quiz⚔️</button>
         </div>
@@ -64,21 +63,6 @@
         </div>
     </div>
     <script src="script.js"></script>
-    <script>
-        document.getElementById('user-input').addEventListener('submit', function(event) {
-            const numQuestionsInput = document.getElementById('num-questions');
-            const errorMessage = document.getElementById('error-message');
-            
-            // Clear previous error message
-            errorMessage.textContent = '';
-        
-            // Check if the value is greater than 164
-            if (numQuestionsInput.value > 164) {
-                errorMessage.textContent = 'Please enter a value less than or equal to 164.';
-                event.preventDefault(); // Prevent form submission
-            }
-        });
-    </script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
             particlesJS('particles-js',
