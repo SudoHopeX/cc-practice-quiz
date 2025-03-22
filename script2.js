@@ -16,6 +16,7 @@ async function processtext(inputText) {
        const fileHash = await response.text();
       console.log(fileHash);
        const inputHash = await sha512(inputText);
+      console.log(inputhash)
 
        // Compare the hashes
        if (inputHash === fileHash) {
