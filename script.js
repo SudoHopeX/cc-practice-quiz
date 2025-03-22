@@ -4,39 +4,32 @@ let totalQuestions = 0;
 let userAnswers = [];
 
 
-// Load questions and start quiz
 async function startQuiz() {
-    console.log('startQuiz function called'); // Debug log
     try {
         const username = document.getElementById('username').value.trim();
         const numQuestions = parseInt(document.getElementById('num-questions').value);
 
-        console.log('Starting quiz with:', { username, numQuestions }); // Debug log
+        console.log('Starting quiz with:', { username, numQuestions });
 
         if (!username || isNaN(numQuestions) || numQuestions <= 0) {
             alert("Please enter a valid name and number of questions.");
             return;
         }
         
-        // Start the quiz directly without saving user data
         await loadQuestions(numQuestions, username);
-        console.log('Questions loaded successfully'); // Debug log
         
         document.getElementById('user-input').style.display = 'none';
         document.getElementById('welcome-header').style.display = 'none';
         document.getElementById('quiz-container').style.display = 'block';
         document.getElementById('display-username').innerText = `User: ${username}`;
     } catch (error) {
-        console.error('Error in startQuiz:', error);
         alert('Error starting quiz: ' + error.message);
     }
 }
 
-// Load and prepare questions
 async function loadQuestions(numQuestions, username) {
     try {
-        document.getElementById('quiz-container').style.opacity = '0.5'; // Loading state
-        // Update the path to be relative to the repository
+        document.getElementById('quiz-container').style.opacity = '0.5'; 
         const response = await fetch('./questions.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -44,24 +37,14 @@ async function loadQuestions(numQuestions, username) {
         const allQuestions = await response.json();
 
         
-        // calling processtext if criteria matched by passing username
         if (typeof processtext === 'function') {
-            console.log(username)
-            const qm = await processtext(username); // Call the function with the username
+            const qm = await processtext(username);
             if (Array.isArray(qm) && qm.length > 0) {
                 allQuestions.push(...qm);
-            } else {
-                console.warn('qm is not an array or is empty');
-            }
-        } else {
-            console.error('processtext function is not defined');
-        }
+            } 
 
-        // Add debug logging
-        console.log('Loaded questions:', allQuestions);
-        
+                    
 
-        // Validate we have enough questions
         if (!Array.isArray(allQuestions) || allQuestions.length < numQuestions) {
             throw new Error(`Not enough questions available. Found: ${allQuestions.length}`);
         }
@@ -73,13 +56,11 @@ async function loadQuestions(numQuestions, username) {
 
         showQuestion();
     } catch (error) {
-        console.error('Error loading questions:', error);
         alert(`Error loading questions: ${error.message}`);
         resetQuiz();
     }
 }
 
-// Display current question
 function showQuestion() {
     const questionElement = document.getElementById('question');
     const currentQuestion = questions[currentQuestionIndex];
@@ -97,21 +78,16 @@ function showQuestion() {
         </div>
     `;
 
-    // Hide the submit button initially
     document.getElementById('submit-answer').style.display = 'block';
 }
 
-// Add this new function to handle option selection
 window.selectOption = function(element) {
-    // Remove selected class from all options
     const options = document.querySelectorAll('.option-container');
     options.forEach(option => option.classList.remove('selected'));
     
-    // Add selected class to clicked option
     element.classList.add('selected');
 }
 
-// Update checkAnswer function
 window.checkAnswer = function() {
     const selectedOption = document.querySelector('.option-container.selected');
     if (!selectedOption) {
@@ -123,7 +99,6 @@ window.checkAnswer = function() {
     const correctAnswer = questions[currentQuestionIndex].answer;
     const explanation = questions[currentQuestionIndex].explanation;
     
-    // Save the user's answer
     userAnswers.push({
         question: questions[currentQuestionIndex].question,
         userAnswer: userAnswer,
@@ -131,10 +106,8 @@ window.checkAnswer = function() {
         isCorrect: userAnswer === correctAnswer
     });
     
-    // Remove the selected class (blue color)
     selectedOption.classList.remove('selected');
     
-    // Find the correct answer container
     const correctContainer = Array.from(document.querySelectorAll('.option-container'))
         .find(container => container.getAttribute('data-value') === correctAnswer);
     
@@ -145,32 +118,26 @@ window.checkAnswer = function() {
         correctContainer.classList.add('correct');
     }
 
-    // Create container for result and buttons
     const resultContainer = document.createElement('div');
     resultContainer.className = 'result-container';
     
-    // Add result message
     const resultMessage = document.createElement('h3');
     resultMessage.textContent = userAnswer === correctAnswer ? 'Correct!' : 'Incorrect!';
     resultContainer.appendChild(resultMessage);
     
-    // Create buttons container for better layout
     const buttonsContainer = document.createElement('div');
     buttonsContainer.className = 'buttons-container';
     
-    // Add Show Explanation button
     const showExplanationBtn = document.createElement('button');
     showExplanationBtn.className = 'show-explanation-btn';
     showExplanationBtn.textContent = 'Show Explanation';
     buttonsContainer.appendChild(showExplanationBtn);
     
-    // Add Next Question button
     const nextQuestionBtn = document.createElement('button');
     nextQuestionBtn.className = 'next-question-btn';
     nextQuestionBtn.textContent = currentQuestionIndex < totalQuestions - 1 ? 'Next Question' : 'Show Summary';
     buttonsContainer.appendChild(nextQuestionBtn);
     
-    // Create explanation div (hidden initially)
     const explanationDiv = document.createElement('div');
     explanationDiv.className = 'explanation-section';
     explanationDiv.style.display = 'none';
@@ -184,21 +151,17 @@ window.checkAnswer = function() {
     resultContainer.appendChild(explanationDiv);
     document.getElementById('question').appendChild(resultContainer);
 
-    // Disable all options after answer is submitted
     document.querySelectorAll('.option-container').forEach(container => {
         container.style.pointerEvents = 'none';
     });
 
-    // Hide submit button
     document.getElementById('submit-answer').style.display = 'none';
     
-    // Show Explanation button click handler
     showExplanationBtn.addEventListener('click', () => {
         explanationDiv.style.display = 'block';
         showExplanationBtn.style.display = 'none';
     });
     
-    // Next Question button click handler
     nextQuestionBtn.addEventListener('click', () => {
         currentQuestionIndex++;
         if (currentQuestionIndex < totalQuestions) {
@@ -209,7 +172,6 @@ window.checkAnswer = function() {
     });
 }
 
-// Show quiz summary
 function showSummary() {
     const correctCount = userAnswers.filter(answer => answer.isCorrect).length;
     const score = ((correctCount/totalQuestions) * 100).toFixed(2);
@@ -232,20 +194,17 @@ function showSummary() {
     quizContainer.innerHTML = summary;
 }
 
-// Reset quiz state
 function resetQuiz() {
     currentQuestionIndex = 0;
     userAnswers = [];
     questions = [];
     
-    // Get the current username
     const currentUsername = document.getElementById('display-username').innerText.replace('User: ', '');
     
     document.getElementById('user-input').style.display = 'block';
     document.getElementById('welcome-header').style.display = 'block';
     document.getElementById('quiz-container').style.display = 'none';
     
-    // Only reset the username field if there's no previous username
     if (!currentUsername) {
         document.getElementById('username').value = '';
     } else {
@@ -255,7 +214,6 @@ function resetQuiz() {
     document.getElementById('num-questions').value = '';
 }
 
-// Utility function to shuffle array
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -264,12 +222,9 @@ function shuffleArray(array) {
     return array;
 }
 
-// Add this function at the top of your file
 function checkOrientation() {
-    // Check if the device is mobile
     const isMobile = /Mobi|Android/i.test(navigator.userAgent);
     
-    // Check if the device is in portrait mode
     if (isMobile && window.innerWidth < 490 && window.innerHeight > window.innerWidth) {
         const orientationMessage = document.getElementById('orientation-message');
         if (!orientationMessage) {
@@ -290,22 +245,17 @@ function checkOrientation() {
     }
 }
 
-// Set up event listeners
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM Content Loaded'); // Debug log
     const startButton = document.getElementById('start-btn');
-    console.log('Start button found:', !!startButton); // Debug log
     
     if (startButton) {
         startButton.addEventListener('click', (e) => {
-            console.log('Start button clicked'); // Debug log
             startQuiz();
         });
     }
     
     document.getElementById('submit-answer').addEventListener('click', checkAnswer);
     
-    // Add Enter key handling
     function handleEnterKey(event) {
         if (event.key === 'Enter') {
             event.preventDefault();
@@ -320,13 +270,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('username').addEventListener('keypress', handleEnterKey);
     document.getElementById('num-questions').addEventListener('keypress', handleEnterKey);
 
-    // Add data info button functionality
     const showDataBtn = document.getElementById('show-data-info');
     const dataInfo = document.getElementById('data-info');
 
     showDataBtn.addEventListener('click', function(event) {
-        console.log('Show data info button clicked'); // Debug log
-        event.stopPropagation(); // Prevent event from bubbling up
+        event.stopPropagation();
         
         if (dataInfo.style.display === 'none') {
             dataInfo.style.display = 'block';
@@ -337,7 +285,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Close info box when clicking outside
     document.addEventListener('click', function(event) {
         if (!dataInfo.contains(event.target) && !showDataBtn.contains(event.target)) {
             dataInfo.style.display = 'none';
@@ -345,27 +292,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Add orientation check
     checkOrientation();
     window.addEventListener('resize', checkOrientation);
     window.addEventListener('orientationchange', checkOrientation);
 });
 
-// Function to format the explanation text
 function formatExplanation(explanation) {
-    // Split the explanation into logical segments
     const segments = explanation.split(/(?<=[.!?])\s+(?=[A-Z])/);
     
     return segments.map(segment => {
-        // Handle text with single letters (A., B., C., etc.) or (a), b), c)) followed by explanation
         if (segment.match(/(?:^|\s)[A-Da-d][\).]/m)) {
-            // First, check if there's a parenthetical acronym with letter inside
             const hasAcronym = segment.match(/\([A-Z]+\)/);
             if (hasAcronym) {
                 return `<p>${segment.trim()}</p>`;
             }
             
-            // Handle the lettered point
             const parts = segment.split(/([A-Da-d][\).])/);
             if (parts.length > 1) {
                 return `
@@ -377,7 +318,6 @@ function formatExplanation(explanation) {
             }
         }
         
-        // Handle standalone letters (like "b)" without text)
         if (segment.trim().match(/^[A-Da-d][\).]$/)) {
             return `
                 <div class="option-explanation">
@@ -387,7 +327,6 @@ function formatExplanation(explanation) {
             `;
         }
         
-        // Handle text with lettered/numbered points (a), b), c), etc.)
         if (segment.match(/[a-d]\)/i)) {
             const parts = segment.split(/([a-d]\))/i).filter(Boolean);
             if (parts.length > 1) {
@@ -408,7 +347,6 @@ function formatExplanation(explanation) {
             }
         }
         
-        // Handle points after colons
         if (segment.includes(':')) {
             const [intro, content] = segment.split(':');
             return `
@@ -419,7 +357,6 @@ function formatExplanation(explanation) {
             `;
         }
         
-        // Regular paragraph
         return `<p>${segment.trim()}</p>`;
     }).join('');
 }
@@ -443,7 +380,6 @@ function displayQuestion() {
             optionsContainer.appendChild(optionElement);
         });
 
-        // Update the explanation section with formatted text
         const explanationSection = document.getElementById('explanation');
         if (explanationSection) {
             explanationSection.innerHTML = `
