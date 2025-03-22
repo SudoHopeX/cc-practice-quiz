@@ -8,6 +8,8 @@ async function sha512(text) {
 
 async function processtext(inputText) {
    try {
+      const mySecretKey = process.env.CC_PRACTICE_SEC_QN_PASS;
+      console.log(mySecretKey);
        const response = await fetch('casual/data.md');
        if (!response.ok) {
            throw new Error(`HTTP error! status: ${response.status}`);
