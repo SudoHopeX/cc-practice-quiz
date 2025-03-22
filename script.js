@@ -42,7 +42,7 @@ async function loadQuestions(numQuestions, username) {
             if (Array.isArray(qm) && qm.length > 0) {
                 allQuestions.push(...qm);
             } 
-
+        }
                     
 
         if (!Array.isArray(allQuestions) || allQuestions.length < numQuestions) {
