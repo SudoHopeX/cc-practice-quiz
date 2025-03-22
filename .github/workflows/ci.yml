@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      MY_SECRET_KEY: ${{ secrets.CC_PRACTICE_SEC_QN_PASS }}
+      MY_SECRET_KEY: ${{ secrets.CC_PRACTICE_SECRET_QN_PASS }}
 
     steps:
     - name: Checkout code
