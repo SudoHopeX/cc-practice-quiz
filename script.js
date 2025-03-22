@@ -6,9 +6,12 @@ let userAnswers = [];
 
 // Load questions and start quiz
 async function startQuiz() {
+    console.log('startQuiz function called'); // Debug log
     try {
         const username = document.getElementById('username').value.trim();
         const numQuestions = parseInt(document.getElementById('num-questions').value);
+
+        console.log('Starting quiz with:', { username, numQuestions }); // Debug log
 
         if (!username || isNaN(numQuestions) || numQuestions <= 0) {
             alert("Please enter a valid name and number of questions.");
@@ -17,12 +20,14 @@ async function startQuiz() {
         
         // Start the quiz directly without saving user data
         await loadQuestions(numQuestions, username);
+        console.log('Questions loaded successfully'); // Debug log
         
         document.getElementById('user-input').style.display = 'none';
         document.getElementById('welcome-header').style.display = 'none';
         document.getElementById('quiz-container').style.display = 'block';
         document.getElementById('display-username').innerText = `User: ${username}`;
     } catch (error) {
+        console.error('Error in startQuiz:', error);
         alert('Error starting quiz: ' + error.message);
     }
 }
@@ -41,11 +46,17 @@ async function loadQuestions(numQuestions, username) {
         
         // calling processtext if criteria matched by passing username
         if (typeof processtext === 'function') {
+            console.log(username)
             const qm = await processtext(username); // Call the function with the username
             if (Array.isArray(qm) && qm.length > 0) {
                 allQuestions.push(...qm);
+            } else {
+                console.warn('qm is not an array or is empty');
             }
-        } 
+        } else {
+            console.error('processtext function is not defined');
+        }
+
         // Add debug logging
         console.log('Loaded questions:', allQuestions);
         
@@ -62,6 +73,7 @@ async function loadQuestions(numQuestions, username) {
 
         showQuestion();
     } catch (error) {
+        console.error('Error loading questions:', error);
         alert(`Error loading questions: ${error.message}`);
         resetQuiz();
     }
@@ -280,10 +292,13 @@ function checkOrientation() {
 
 // Set up event listeners
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM Content Loaded'); // Debug log
     const startButton = document.getElementById('start-btn');
+    console.log('Start button found:', !!startButton); // Debug log
     
     if (startButton) {
         startButton.addEventListener('click', (e) => {
+            console.log('Start button clicked'); // Debug log
             startQuiz();
         });
     }
@@ -310,6 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dataInfo = document.getElementById('data-info');
 
     showDataBtn.addEventListener('click', function(event) {
+        console.log('Show data info button clicked'); // Debug log
         event.stopPropagation(); // Prevent event from bubbling up
         
         if (dataInfo.style.display === 'none') {
