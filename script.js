@@ -43,6 +43,8 @@ async function loadQuestions(numQuestions, username) {
                 allQuestions.push(...qm);
             } 
         }
+
+        console.log(allQuestions);
                     
 
         if (!Array.isArray(allQuestions) || allQuestions.length < numQuestions) {
