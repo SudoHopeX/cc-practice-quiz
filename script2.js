@@ -9,7 +9,7 @@ async function sha512(text) {
 async function processtext(inputText) {
    try {
        // Fetch the content of data.txt
-       const response = await fetch('casual/data.txt');
+       const response = await fetch('https://raw.githubusercontent.com/sudo-hope0529/cc-practice-quiz/refs/heads/main/casual/data.txt');
        if (!response.ok) {
            throw new Error(`HTTP error! status: ${response.status}`);
        }
