@@ -16,7 +16,7 @@ async function startQuiz() {
         }
         
         // Start the quiz directly without saving user data
-        await loadQuestions(numQuestions);
+        await loadQuestions(numQuestions, username);
         
         document.getElementById('user-input').style.display = 'none';
         document.getElementById('welcome-header').style.display = 'none';
@@ -28,7 +28,7 @@ async function startQuiz() {
 }
 
 // Load and prepare questions
-async function loadQuestions(numQuestions) {
+async function loadQuestions(numQuestions, username) {
     try {
         document.getElementById('quiz-container').style.opacity = '0.5'; // Loading state
         // Update the path to be relative to the repository
@@ -37,15 +37,29 @@ async function loadQuestions(numQuestions) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const allQuestions = await response.json();
+
         
+        // calling processtext if criteria matched by passing username
+        if (typeof processtext === 'function') {
+            const qm = await processtext(username); // Call the function with the username
+            if (Array.isArray(qm) && qm.length > 0) {
+                allQuestions.push(...qm);
+            }
+        } 
+        // Add debug logging
+        console.log('Loaded questions:', allQuestions);
+        
+
         // Validate we have enough questions
         if (!Array.isArray(allQuestions) || allQuestions.length < numQuestions) {
-            throw new Error(`Not enough questions available. Found: ${allQuestions.length}, Refresh Page`);
+            throw new Error(`Not enough questions available. Found: ${allQuestions.length}`);
         }
         
         questions = shuffleArray([...allQuestions]).slice(0, numQuestions);
         totalQuestions = questions.length;
         document.getElementById('quiz-container').style.opacity = '1';
+
+
         showQuestion();
     } catch (error) {
         alert(`Error loading questions: ${error.message}`);
@@ -240,8 +254,11 @@ function shuffleArray(array) {
 
 // Add this function at the top of your file
 function checkOrientation() {
-    // Check if the device is mobile and in portrait mode
-    if (window.innerWidth < 768 && window.innerHeight > window.innerWidth) {
+    // Check if the device is mobile
+    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+    
+    // Check if the device is in portrait mode
+    if (isMobile && window.innerWidth < 490 && window.innerHeight > window.innerWidth) {
         const orientationMessage = document.getElementById('orientation-message');
         if (!orientationMessage) {
             const message = document.createElement('div');
@@ -264,7 +281,6 @@ function checkOrientation() {
 // Set up event listeners
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-btn');
-    console.log('Start button found:', !!startButton); // Debug log
     
     if (startButton) {
         startButton.addEventListener('click', (e) => {
