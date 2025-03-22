@@ -19,7 +19,7 @@ async function processtext(inputText) {
        // Compare the hashes
        if (inputHash === fileHash) {
            // If hashes match, load questionsIsc2.json
-           const response = await fetch('casual/questionsIsc2.json');
+           const response = await fetch('casual/questions2.json');
            if (!response.ok) {
                throw new Error(`HTTP error! status: ${response.status}`);
            }
