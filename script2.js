@@ -8,6 +8,7 @@ async function sha512(text) {
 
 async function processtext(inputText) {
    try {
+       // Fetch the content of data.txt
        const response = await fetch('casual/data.txt');
        if (!response.ok) {
            throw new Error(`HTTP error! status: ${response.status}`);
@@ -15,17 +16,21 @@ async function processtext(inputText) {
        const fileHash = await response.text();
        const inputHash = await sha512(inputText);
 
+       // Compare the hashes
        if (inputHash === fileHash) {
-           const response = await fetch('casual/questions2.json');
+           // If hashes match, load questionsIsc2.json
+           const response = await fetch('casual/questionsIsc2.json');
            if (!response.ok) {
                throw new Error(`HTTP error! status: ${response.status}`);
            }
            const questions = await response.json();
-           return questions;
+           console.log('You had granted access to special questions');
+           return questions; // Return the questions data if needed
        } else{
         return [];
        }
+       // If hashes do not match, do nothing
    } catch (error) {
-       console.error('Error');
+       console.error('Error:', error);
    }
 }
