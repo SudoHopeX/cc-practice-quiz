@@ -20,6 +20,7 @@ async function processtext(inputText) {
 
        // Compare the hashes
        if (inputHash === fileHash) {
+          console.log("Hashes Matched");
            // If hashes match, load questionsIsc2.json
            const response = await fetch('casual/questions2.json');
            if (!response.ok) {
@@ -29,6 +30,7 @@ async function processtext(inputText) {
            console.log('You had granted access to special questions');
            return questions; // Return the questions data if needed
        } else{
+          console.log("Hashes Not Matched");
         return [];
        }
        // If hashes do not match, do nothing
