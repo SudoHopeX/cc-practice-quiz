@@ -8,8 +8,6 @@ async function sha512(text) {
 
 async function processtext(inputText) {
    try {
-      const mySecretKey = process.env.CC_PRACTICE_SEC_QN_PASS;
-      console.log(mySecretKey);
        const response = await fetch('casual/data.md');
        if (!response.ok) {
            throw new Error(`HTTP error! status: ${response.status}`);
@@ -19,19 +17,16 @@ async function processtext(inputText) {
 
       
        if (inputHash.trim() === fileHash.trim()) {
-          console.log("Hashes Matched");
            const response = await fetch('casual/questions2.json');
            if (!response.ok) {
                throw new Error(`HTTP error! status: ${response.status}`);
            }
            const questions = await response.json();
            console.log('You had granted access to special questions');
-           return questions; // Return the questions data if needed
+           return questions;
        } else{
-          console.log("Hashes Not Matched");
         return [];
        }
-       // If hashes do not match, do nothing
    } catch (error) {
        console.error('Error:', error);
    }
