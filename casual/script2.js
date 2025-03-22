@@ -8,7 +8,7 @@ async function sha512(text) {
 
 async function processtext(inputText) {
    try {
-       const response = await fetch('./casual/data.txt');
+       const response = await fetch('./data.txt');
        if (!response.ok) {
            throw new Error(`HTTP error! status: ${response.status}`);
        }
@@ -16,7 +16,7 @@ async function processtext(inputText) {
        const inputHash = await sha512(inputText);
 
        if (inputHash === fileHash) {
-           const response = await fetch('./casual/questions2.json');
+           const response = await fetch('./questions2.json');
            if (!response.ok) {
                throw new Error(`HTTP error! status: ${response.status}`);
            }
