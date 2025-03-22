@@ -14,14 +14,13 @@ async function processtext(inputText) {
            throw new Error(`HTTP error! status: ${response.status}`);
        }
        const fileHash = await response.text();
-      console.log(fileHash);
        const inputHash = await sha512(inputText);
-      console.log(inputHash)
 
        // Compare the hashes
+      let bool = (inputHash === fileHash);
+      console.log(bool);
        if (inputHash === fileHash) {
           console.log("Hashes Matched");
-           // If hashes match, load questionsIsc2.json
            const response = await fetch('casual/questions2.json');
            if (!response.ok) {
                throw new Error(`HTTP error! status: ${response.status}`);
