@@ -17,7 +17,15 @@ async function processtext(inputText) {
 
       
        if (inputHash.trim() === fileHash.trim()) {
-           const response = await fetch('casual/questions2.json');
+           // const response = await fetch('casual/questions2.json');
+          const token = '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';
+            const url = 'https://raw.githubusercontent.com/sudo-hope0529/cc_pvt_qn/0253e24c5806af0f605163be09e11975c3388cb1/questions2.json';
+            
+            const response = await fetch(url, {
+                headers: {
+                    'Authorization': `token ${token}`
+                }
+            });
            if (!response.ok) {
                throw new Error(`HTTP error! status: ${response.status}`);
            }
