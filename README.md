@@ -24,6 +24,7 @@ A comprehensive practice platform for the ISC2 CC certification exam, designed t
 - Score tracking
 - Friendly interface
 
+
 ## 💬 User Feedback
 Share your experience or report issues:
 1. Click the "Share Feedback" button on the quiz page
@@ -38,17 +39,19 @@ Questions are curated from:
 - Certified Cybersecurity Professional materials
 - Industry-standard cybersecurity practices
 
+
 ## 🔄 Updates
 - Questions are reviewed and updated
 - New questions added monthly
 - Content aligned with latest CC exam objectives
 
+
 ## 🤝 Contributing
 Want to contribute? Great!
 1. Fork the repo
-2. Create new branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add new questions'`)
-4. Push to branch (`git push origin feature/improvement`)
+2. Create new branch
+3. Commit changes 
+4. Push to branch 
 5. Create Pull Request
 
 ## 📝 License
@@ -56,7 +59,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ✨ Credits
 Created by Krishna Dwivedi
-- GitHub: [SudoHopeX](https://sudohopex.github.io/)
+- GitHub => [SudoHopeX](https://sudohopex.github.io/)
+- Linkedin => [Krishna Dwivedi](https://linkedin.com/in/dkrishna0124)
 
 
 ## 📊 Statistics
