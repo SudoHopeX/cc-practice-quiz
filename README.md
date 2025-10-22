@@ -2,6 +2,8 @@
 
 A comprehensive practice platform for the ISC2 CC certification exam, designed to help aspiring cybersecurity professionals test and enhance their knowledge.
 
+<p>⭐ Star this repo if you found it helpful!</p>
+
 ## 🚀 Quick Start
 1. Visit: [CC Practice Quiz](https://sudohopex.github.io/cc-practice-quiz/)
 2. Enter your name
@@ -70,6 +72,3 @@ Created by Krishna Dwivedi
 <!--
 - Average Success Rate: 75%
 -->
-
----
-⭐ Star this repo if you found it helpful!
