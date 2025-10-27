@@ -36,14 +36,6 @@ async function loadQuestions(numQuestions, username) {
         }
         const allQuestions = await response.json();
 
-        
-        if (typeof processtext === 'function') {
-            const qm = await processtext(username);
-            if (Array.isArray(qm) && qm.length > 0) {
-                allQuestions.push(...qm);
-            } 
-        }
-
         // console.log(allQuestions);
 
 
@@ -404,5 +396,6 @@ function displayQuestion() {
         showResults();
     }
 }
+
 
 
