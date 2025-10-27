@@ -72,3 +72,7 @@ Created by Krishna Dwivedi
 <!--
 - Average Success Rate: 75%
 -->
+
+---
+
+![Mde with Lov3 by SudoHopeX](https://hope.is-a.dev/img/made-with-love-by-sudohopex.png)
