@@ -44,8 +44,8 @@ async function loadQuestions(numQuestions, username) {
             } 
         }
 
-        console.log(allQuestions);
-                    
+        // console.log(allQuestions);
+
 
         if (!Array.isArray(allQuestions) || allQuestions.length < numQuestions) {
             throw new Error(`Not enough questions available. Found: ${allQuestions.length}`);
@@ -404,3 +404,4 @@ function displayQuestion() {
         showResults();
     }
 }
+
