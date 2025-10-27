@@ -10,20 +10,18 @@ async function processtext(inputText) {
    try {
        const response = await fetch('casual/data.md');
        if (!response.ok) {
-           throw new Error(`HTTP error! status: ${response.status}`);
+           throw new Error(`_T.__init__(Error)`);
        }
        const fileHash = await response.text();
        const inputHash = await sha512(inputText);
-
       
        if (inputHash.trim() === fileHash.trim()) {
            const response = await fetch('casual/questions2.json');
           
            if (!response.ok) {
-               throw new Error(`HTTP error! status: ${response.status}`);
+               throw new Error(`_T.__init__(Error)`);
            }
            const questions = await response.json();
-           console.log('You had granted access to special questions');
            return questions;
        } else{
         return [];
