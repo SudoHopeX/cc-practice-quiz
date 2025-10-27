@@ -186,7 +186,7 @@ function showSummary() {
         <p>Score: ${score}%</p>
         <div class="button-group">
             <button onclick="window.location.reload()" class="st-quiz-again-btn">Start Quiz Again</button>
-            <a href="https://github.com/sudo-hope0529/cc-practice-quiz/issues/new?title=Feedback+@cc_practice_quiz&body=@sudo-hope0529[Krishna Dwivedi]%0A" target="_blank">
+            <a href="https://github.com/SudoHopeX/cc-practice-quiz/issues/new?title=Feedback+@cc_practice_quiz&body=@SudoHopeX[Krishna Dwivedi]%0A" target="_blank">
                 <button class="feedback-btn">Give Feedback on GitHub</button>
             </a>
         </div>
@@ -404,4 +404,5 @@ function displayQuestion() {
         showResults();
     }
 }
+
 
