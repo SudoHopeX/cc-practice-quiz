@@ -1,21 +1,21 @@
 [
    {
-       "question": "Sharma ji is a security practitioner assigned to come up with a protective measure for ensuring cars don't collide with pedestrians. What is probably the most effective type of control for this task?",
+       "question": "Sharma ji, a security practitioner assigned to come up with a protective measure for ensuring cars don't collide with pedestrians. What is probably the most effective type of control for this task?",
        "options": [
            "Administrative",
            "Technical",
-           "Nuanced",
+           "Logical",
            "Physical"
        ],
        "answer": "Physical",
        "explanation": "Physical controls, such as fences, walls and bollards, will be most likely to ensure cars cannot collide with pedestrians by creating actual barriers between cars and pedestrians."
    },
    {
-       "question": "Chaturvedi ji is a security practitioner tasked with ensuring that the information on the organization's public website is not changed by anyone outside the organization. This task is an example of ensuring _________",
+       "question": "Chaturvedi ji, a security practitioner tasked with ensuring that the information on the organization's public website is not changed by anyone outside the organization. This task is an example of ensuring _________",
        "options": [
            "Availability",
            "Confidentiality",
-           "Confirmation",
+           "Cryptography",
            "Integrity"
        ],
        "answer": "Integrity",
@@ -25,8 +25,8 @@
        "question": "Which of the following is an example of a 'Something you know' authentication factor?",
        "options": [
            "Password",
-           "User ID",
-           "Fingerprint",
+           "Palm Scan",
+           "Your User ID",
            "Iris scan"
        ],
        "answer": "Password",
@@ -35,8 +35,8 @@
    {
        "question": "Which of the following is an example of a 'Something you are' authentication factor?",
        "options": [
-           "Your password and PIN",
-           "A user ID",
+           "Your Passwords",
+           "Your demographic details (name, DOB etc.)",
            "A credit card presented to a cash machine",
            "A photograph of your face"
        ],
@@ -47,9 +47,9 @@
        "question": "A system that collects transactional information and stores it in a record in order to show which users performed which actions are an example of providing ________.",
        "options": [
            "Privacy",
-           "Multifactor authentication",
+           "Authentication",
            "Non-repudiation",
-           "Biometrics"
+           "Logs"
        ],
        "answer": "Non-repudiation",
        "explanation": "Non-repudiation is the concept that users cannot deny they have performed transactions that they did, in fact, conduct. A system that keeps a record of user transactions provides non-repudiation."
@@ -57,34 +57,34 @@
    {
        "question": "What is the European Union (EU) law that grants legal protections to individual human privacy?",
        "options": [
-           "The Magna Carta",
+           "Health Insurance Portability and Accountability Act",
            "The Privacy Human Rights Act",
-           "The General Data Protection Regulation",
-           "The Constitution"
+           "General Data Protection Regulation",
+           "Cyber Resilience Act"
        ],
-       "answer": "The General Data Protection Regulation",
-       "explanation": "The GDPR is the EU law that treats privacy as a human right."
+       "answer": "]General Data Protection Regulation",
+       "explanation": "The GDPR is the EU law that treats privacy as a human right, requiring lawful processing of personal data, breach notification within 72 hours, and ensuring data protection by design and default."
    },
    {
        "question": "For which of the following systems would the security concept of availability probably be most important?",
        "options": [
            "Medical systems that store patient data",
            "Medical systems that monitor patient condition in an intensive-care unit",
-           "Retail records of past transactions",
+           "Medical records of past transactions",
            "Online streaming of camera feeds that display historical works of art in museums around the world"
        ],
        "answer": "Medical systems that monitor patient condition in an intensive-care unit",
-       "explanation": "Information that reflects patient condition is data that necessarily must be kept available in real time, because that data is directly linked to the patients' well-being (and possibly their life). This is, by far, the most important of the options listed."
+       "explanation": "Information that reflects patient condition is data that must be kept available in real time, because that data is directly linked to the patient's well-being (and possibly their life). That's why it's the most important options listed."
    },
    {
-       "question": "For which of the following assets is integrity probably the most important security aspect?",
+       "question": "For which of the following assets is integrity the most critical security concern?",
        "options": [
            "One frame of a streaming video",
-           "The file that contains passwords used to authenticate users",
-           "The color scheme of a marketing website",
-           "Software that checks the spelling of product descriptions for a retail website"
+           "The file that contains passwords used for user authentication",
+           "Color palette used on a company’s public website",
+           "A spell-checking tool for product listings in an online store"
        ],
-       "answer": "The file that contains passwords used to authenticate users",
+       "answer": "The file that containing passwords used for user authentication",
        "explanation": "If a password file is modified, the impact to the environment could be significant; there is a possibility that all authorized users could be denied access, or that anyone (including unauthorized users) could be granted access. The integrity of the password file is probably the most crucial of the four options listed."
    },
    {
@@ -96,32 +96,32 @@
            "Threat"
        ],
        "answer": "Asset",
-       "explanation": "An asset is anything with value, and a security practitioner may need to protect assets."
+       "explanation": "Assets—such as data, systems, hardware, and intellectual property—represent valuable resources that must be protected. Security practitioners focus on safeguarding these, while vulnerabilities, threats, and likelihood are factors used to assess risk, not items to be protected directly."
    },
    {
-      "question": "In risk management concepts, what is something or someone that poses a risk to an organization or asset?",
+      "question": "In risk management concepts, what is that poses a risk to an organization or asset?",
       "options": [
           "Threat",
-          "Fear",
+          "Public data",
           "Asset",
-          "Control"
+          "Controls"
       ],
       "answer": "Threat",
-      "explanation": "A threat is something or someone that poses risk to the organization; this is the definition of a threat."
+      "explanation": "A threat is something or someone that poses risk to the organization or asset. Also a threat is any natural or human-made event, actor, or circumstance that has the potential to exploit a vulnerability and cause harm to an asset. Examples include cyberattacks, natural disasters, or malicious insiders. The other options—asset (what is being protected), controls (measures to reduce risk), and public data (not a standard term in this context)—do not represent risk sources."
   },
   {
-      "question": "Of the following, which would probably not be considered a threat?",
+      "question": "Which of the following would probably not be considered a threat?",
       "options": [
           "A laptop with sensitive data on it",
           "Unintentional damage to the system caused by a user",
           "An external attacker trying to gain unauthorized access to the environment",
-          "Natural disaster"
+          "Natural Disaster"
       ],
       "answer": "A laptop with sensitive data on it",
-      "explanation": "A laptop, and the data on it, are assets, not threats. All the other answers are examples of threats, as they all have the potential to cause adverse impact to the organization and the organization's assets."
+      "explanation": "A laptop, and the data on it, is an asset not a threat. All the other answers are examples of threats, as they all have the potential to cause adverse impact to the organization and the organization's assets."
   },
   {
-      "question": "Which of the following probably poses the most risk?",
+      "question": "Which of the following probably poses the most risk to an organization ?",
       "options": [
           "A low-likelihood, high-impact event",
           "A high-likelihood, high-impact event",
@@ -132,7 +132,7 @@
       "explanation": "An event that has a significant probability of occurring ('high-likelihood') and also has a severe negative consequence (high-impact) poses the most risk."
   },
   {
-      "question": "Within the organization, who can identify risk?",
+      "question": "Within the organization, who can identify a threat or risk ?",
       "options": [
           "Any security team member",
           "The security manager",
@@ -140,10 +140,10 @@
           "Senior management"
       ],
       "answer": "Anyone",
-      "explanation": "Anyone within the organization can identify risk."
+      "explanation": "Anyone within the organization can identify a threat or risk."
   },
   {
-      "question": "Radha works in the security office of a medium-sized entertainment company. She is asked to assess a particular threat, and she suggests that the best way to counter this threat would be to purchase and implement a particular security solution. This is an example of",
+      "question": "Radha works in the security office of a medium-sized entertainment company. She is asked to assess a particular threat, and she suggests that the best way to counter this threat would be to purchase and implement a particular security solution. This is an example of what ?",
       "options": [
           "Acceptance",
           "Avoidance",
@@ -154,7 +154,7 @@
       "explanation": "Applying a security solution (a type of control) is an example of mitigation."
   },
   {
-      "question": "Rama is visiting Las Vegas and decides to put a bet on a particular number on a roulette wheel. This is an example of _________.",
+      "question": "Rama is visiting Las Vegas and decides to put a bet on a particular number on a lucky wheel. This is an example of _________.",
       "options": [
           "Avoidance",
           "Acceptance",
@@ -162,12 +162,12 @@
           "Mitigation"
       ],
       "answer": "Acceptance",
-      "explanation": "Rama is accepting the risk that the money will be lost, even though the likelihood is high; he has decided that the potential benefit (winning the bet), while low in likelihood, is worth the risk."
+      "explanation": "Rama is accepting the risk that the money will be lost, even though the likelihood is high; she has decided that the potential benefit (winning the bet), while low in likelihood, is worth the risk."
   },
   {
       "question": "Raju is selling a used laptop in an online auction. He has estimated the value of the laptop to be ₹5000 but has seen other laptops of similar type and quality sell for both more and less than that amount. Raju hopes that the laptop will sell for ₹5000 or more, but is prepared to take less for it if nobody bids that amount. This is an example of ___________",
       "options": [
-          "Vulnerability",
+          "Risk Acceptance",
           "Threat",
           "Risk tolerance",
           "Risk inversion"
@@ -176,7 +176,7 @@
       "explanation": "Raju has decided there is an acceptable level of risk associated with the online sale of the laptop; this is within Raju's risk tolerance."
   },
   {
-      "question": "A software firewall is an application that runs on a device and prevents specific types of traffic from entering that device. This is a type of ________ control.",
+      "question": "A software firewall is an application that runs on a device and prevents specific types of traffic from entering that device. Which type of security control it is ?",
       "options": [
           "Administrative",
           "Physical",
@@ -187,7 +187,7 @@
       "explanation": "A software firewall is a technical control, because it is a part of the IT environment."
   },
   {
-      "question": "At the airport, there are red lines painted on the ground next to the runway, which prohibits traffic from crossing it. This is an example of a(n)______ control.",
+      "question": "At the airport, there are red lines painted on the ground next to the runway, which prohibits traffic from crossing it. This is an example of which security control.",
       "options": [
           "Critical",
           "Physical",
@@ -198,7 +198,7 @@
       "explanation": "A red line that is painted on the ground at the airport to prohibit traffic from crossing it is a physical control, like a stop sign on the roadway is."
   },
   {
-      "question": "A bollard is a post set securely in the ground in order to prevent a vehicle from entering an area or driving past a certain point. Bollards are an example of ______ controls.",
+      "question": "A bollard set securely in the ground in order to prevent a vehicle from entering an area or driving past a certain point. Are an example of ______ controls.",
       "options": [
          "Technical",
          "Critical",
@@ -206,7 +206,7 @@
          "Physical"
       ],
       "answer": "Physical",
-      "explanation": "A bollard is a tangible object that prevents a physical act from occurring; this is a physical control."
+      "explanation": "A bollard set securely in the ground to block vehicle access is an example of a physical control, as it uses a tangible barrier to prevent unauthorized physical entry."
    },
    {
       "question": "Drishti is a security practitioner tasked with ensuring that laptops are not stolen from the organization's offices. Which sort of security control would probably be best for this purpose?",
@@ -220,7 +220,7 @@
       "explanation": "Because laptops are tangible objects, and Drishti is trying to ensure that these objects are not moved from a certain place, physical controls are probably best for the purpose."
    },
    {
-      "question": "Trishul Corporation has a policy that all employees must receive security awareness instruction before using email; the company wants to make employees aware of potential phishing attempts that the employees might receive via email. What kind of control is this instruction?",
+      "question": "Hope Corporation has a policy that all employees must receive security awareness instruction before using email; the company wants to make employees aware of potential phishing attempts that the employees might receive via email. What kind of control is this instruction?",
       "options": [
          "Administrative",
          "Finite",
@@ -231,7 +231,7 @@
       "explanation": "Both the policy and the instruction are administrative controls; rules and governance are administrative."
    },
    {
-      "question": "The city of Gurugram wants to ensure that all of its citizens are protected from malware, so the city council creates a rule that anyone caught creating and launching malware within the city limits will receive a fine and go to jail. What kind of rule is this?",
+      "question": "The Mumbai city wants to ensure that all of its citizens are protected from malware, so the city council creates a rule that anyone caught creating and launching malware within the city limits will receive a fine and go to jail. What kind of rule is this?",
       "options": [
          "Standard",
          "Policy",
@@ -250,10 +250,10 @@
          "Standard"
       ],
       "answer": "Policy",
-      "explanation": "This is an internal, strategic document, and is therefore a policy."
+      "explanation": "This is an internal, strategic document, and therefore is a policy."
    },
    {
-      "question": "Raipur municipal code requires that all companies that operate within city limits will have a set of processes to ensure employees are safe while working with hazardous materials. Trimurti Corporation creates a checklist of activities employees must follow while working with hazardous materials inside Raipur city limits. The municipal code is a ______, and the Trimurti checklist is a ________",
+      "question": "Chhattisgarh municipal code requires that all companies that operate within city limits will have a set of processes to ensure employees are safe while working with hazardous materials. So, Bhilai Steel Plant Corporation creates a checklist of activities employees must follow while working with hazardous materials inside Raipur city limits. The municipal code is a ______, and the Bhilai Steel Plant checklist is a ________",
       "options": [
          "Policy, law",
          "Standard, law",
@@ -264,7 +264,7 @@
       "explanation": "The municipal code was created by a governmental body and is a legal mandate; this is a law. The Trimurti checklist is a detailed set of actions which must be used by Trimurti employees in specific circumstances; this is a procedure."
    },
    {
-      "question": "Omi is a member of ISC2 and a security analyst for Trimurti Corporation. During an audit, Omi is asked whether Trimurti is currently following a particular security practice. Omi knows that Trimurti is not adhering to that standard in that particular situation, but that saying this to the auditors will reflect poorly on Trimurti. What should Omi do?",
+      "question": "Omi is a member of ISC2 and a security analyst for Hope Corporation. During an audit, Omi is asked whether Hope Corporation is currently following a particular security practice. Omi knows that Hope Corporation is not adhering to that standard in that particular situation, but that saying this to the auditors will reflect poorly on Hope Corporation. What should Omi do?",
       "options": [
          "Ask supervisors for guidance",
          "Lie to the auditors",
@@ -272,29 +272,29 @@
          "Ask ISC2 for guidance"
       ],
       "answer": "Tell the auditors the truth",
-      "explanation": "The ISC2 Code of Ethics requires that members act honorably, honestly, justly, and responsibly and also advance and protect the profession. Both requirements dictate that Omi should tell the truth to the auditors. While the Code also says that Omi should provide diligent and competent service to principals, and Omi's principal is Trimurti in this case, lying does not serve Trimurti's best long-term interests, even if the truth has some negative impact in the short term."
+      "explanation": "The ISC2 Code of Ethics requires that members act honorably, honestly, justly, and responsibly and also advance and protect the profession. Both requirements dictate that Omi should tell the truth to the auditors. While the Code also says that Omi should provide diligent and competent service to principals, and Omi's principal is Hope Corporation in this case, lying does not serve Hope Corporation's best long-term interests, even if the truth has some negative impact in the short term."
    },
    {
-      "question": "Amrita is a member of ISC2 and a data analyst for Trimurti Corporation. While Amrita is reviewing user log data, she discovers that another Trimurti employee is violating the acceptable use policy and watching streaming videos during work hours. What should Amrita do?",
+      "question": "Amrita is a member of ISC2 and a data analyst for Hope Corporation. While Amrita is reviewing user log data, she discovers that another Hope Corporation employee is violating the acceptable use policy and watching streaming videos during work hours. What should Amrita do?",
       "options": [
          "Inform ISC2",
          "Inform law enforcement",
          "Nothing",
-         "Inform Trimurti management"
+         "Inform Hope Corporation's management"
       ],
-      "answer": "Inform Trimurti management",
-      "explanation": "Amrita is required by the ISC2 Code of Ethics to provide diligent and competent service to principals. This includes reporting policy violations to Trimurti management (Trimurti is the principal, in this case). A policy violation of this type is not a crime, so law enforcement does not need to be involved, and ISC2 has no authority over Trimurti policy enforcement or employees."
+      "answer": "Inform Hope Corporation's management",
+      "explanation": "Amrita is required by the ISC2 Code of Ethics to provide diligent and competent service to principals. This includes reporting policy violations to Inform Hope Corporation's management (Hope Corporation is the principal, in this case). A policy violation of this type is not a crime, so law enforcement does not need to be involved, and ISC2 has no authority over Inform Hope Corporation's policy enforcement or employees."
    },
    {
-      "question": "Glena is an ISC2 member. Glena receives an email from a company offering a set of answers for an ISC2 certification exam. What should Glena do?",
+      "question": "Amit is an ISC2 member. Amit receives an email from a company offering a set of answers for an ISC2 certification exam. What should Amit do?",
       "options": [
          "Nothing",
-         "Inform Glena's employer",
+         "Inform Amit's employer",
          "Inform ISC2",
          "Inform law enforcement"
       ],
       "answer": "Inform ISC2",
-      "explanation": "The ISC2 Code of Ethics requires that members advance and protect the profession; this includes protecting test security for ISC2 certification material. ISC2 (and every ISC2 member) has a vested interest in protecting test material, and countering any entity that is trying to undermine the validity of the certifications. This is, however, not a matter for law enforcement; if it turns out that law enforcement must be involved, ISC2 will initiate that activity. Glena's employer has no bearing on this matter."
+      "explanation": "The ISC2 Code of Ethics requires that members advance and protect the profession; this includes protecting test security for ISC2 certification material. ISC2 (and every ISC2 member) has a vested interest in protecting test material, and countering any entity that is trying to undermine the validity of the certifications. This is, however, not a matter for law enforcement; if it turns out that law enforcement must be involved, ISC2 will initiate that activity. Amit's employer has no bearing on this matter."
    },
    {
       "question": "You are reviewing log data from a router; there is an entry that shows a user sent traffic through the router at 11:45 am, local time, yesterday. This is an example of a(n) _______.",
@@ -305,7 +305,7 @@
          "Inform ISC2"
       ],
       "answer": "Event",
-      "explanation": "An event is any observable occurrence within the IT environment. (Any observable occurrence in a network or system. (Source: NIST SP 800-61 Rev 2))"
+      "explanation": "An event is any observable occurrence within the IT environment. (Any observable occurrence in a network or system.)"
    },
    {
       "question": "An attacker outside the organization attempts to gain access to the organization’s internal files. This is an example of a(n) ______.",
@@ -316,8 +316,9 @@
          "Intrusion"
       ],
       "answer": "Intrusion",
-      "explanation": "An intrusion is an attempt (successful or otherwise) to gain unauthorized access."
+      "explanation": "An intrusion is an attempt (successful or otherwise) to gain unauthorized access to something."
    },
+   ## Further Review Required
    {
        "question": "What is the risk associated with resuming full normal operations too soon after a DR effort?",
        "options": [
